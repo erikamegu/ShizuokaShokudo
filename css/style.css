@@ -1,0 +1,458 @@
+@charset "utf-8";
+
+/* scroll bar */
+.news-scroll::-webkit-scrollbar {
+	width: 16px;
+}
+
+.news-scroll::-webkit-scrollbar-thumb {
+	background: #67d212;
+	border-radius: 8px;
+	border-right: 4px solid transparent; /* 透明なボーダーをつける */
+	border-left: 4px solid transparent; /* 透明なボーダーをつける */
+	background-clip: padding-box; /* 背景を切り取る */
+}
+
+.news-scroll::-webkit-scrollbar-track {
+	/* 上下に余白を付ける */
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+body {
+	font-family: "Noto Sans JP", sans-serif;
+	color: #4d5156;
+}
+header {
+	padding: 30px 4% 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+header img {
+	width: 100px;
+	height: 100px;
+}
+header img:hover {
+	opacity: 0.8;
+	transition: 0.3s;
+}
+
+/* ナビ */
+header nav {
+	margin: 0 0 0 auto;
+}
+
+header nav ul {
+	display: flex;
+}
+
+.nav-text-first {
+	margin: 0 0 0 50px;
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(196, 237, 172);
+	font-family: "Montserrat", sans-serif;
+	padding-bottom: 10px;
+}
+
+/* ナビ下の文字 */
+.nav-text-second {
+	font-family: "Zen Kurenaido", sans-serif;
+	font-size: 13px;
+	color: rgb(196, 237, 172);
+	margin: 0 0 0 50px;
+}
+
+/* ナビ　hover */
+.menu-text-container > li:hover .nav-text-first,
+.menu-text-container > li:hover .nav-text-second {
+	color: #67d212;
+}
+
+/* メイン画像 */
+.index-top {
+	min-height: 100vh;
+	background-image: url(../image/メイン画像.jpeg);
+	background-size: cover;
+	background-position: bottom center;
+}
+
+/* メイン画像　テキスト */
+.sub_top {
+	padding-top: 25vh;
+	padding-left: 12vw;
+	text-align: center;
+	font-family: "Zen Kurenaido", sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 50px;
+	letter-spacing: 0.5em;
+	-moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	-webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	-ms-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+/* しずおか食堂とは？ */
+.main-concept {
+	text-align: center;
+}
+
+/* 葉っぱ */
+.main-concept-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 300px;
+	height: 200px;
+	width: 250px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+}
+
+.leaf {
+	background-image: url(../image/leaf1.png);
+}
+
+.main-concept h2 {
+	margin-top: 70px;
+	font-size: 24px;
+	font-family: "Zen Kurenaido", sans-serif;
+}
+
+/* Concept */
+.main-concept-text {
+	font-size: 16px;
+	font-family: "Montserrat", sans-serif;
+	margin-top: 10px;
+}
+
+/* ★コンセプト画像  */
+.main-concept-img {
+	width: 620px;
+	height: 413px;
+	border-radius: 20px;
+	margin-bottom: 50px;
+}
+
+/* コンセプトテキスト */
+.main-concept p {
+	width: 950px;
+	height: 190px;
+	background-color: #f8f8f8;
+	border-radius: 30px;
+	text-align: left;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	font-size: 16px;
+	letter-spacing: 3px;
+	line-height: 35px;
+	padding: 25px;
+}
+/* コンセプトテキスト　『しずおか食堂』 */
+.main-concept span {
+	font-size: 20px;
+	color: #67d212;
+	font-family: "Zen Kurenaido", sans-serif;
+}
+/* もっと見る　ボタン */
+.main-concept-btn {
+	font-size: 16px;
+	background-color: #67d212;
+	width: 200px;
+	height: 50px;
+	color: #ffffff;
+	border-radius: 100px;
+}
+
+.main-concept-btn:hover {
+	color: #67d212;
+	background-color: #fff;
+	border: 3px solid #67d212;
+}
+
+/* お品書き */
+.main-menu {
+	text-align: center;
+	/* 背景横 */
+	padding: 0 50px;
+}
+
+/* 葉っぱ */
+.main-menu-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 300px;
+	height: 200px;
+	width: 200px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+}
+
+.leaf {
+	background-image: url(../image/leaf2.png);
+}
+
+.main-menu h2 {
+	margin-top: 70px;
+	font-size: 24px;
+	font-family: "Zen Kurenaido", sans-serif;
+}
+/* menu */
+.main-menu-text {
+	font-size: 16px;
+	font-family: "Montserrat", sans-serif;
+	margin-top: 10px;
+}
+/* おすすめメニュー */
+.main-menu-text-second {
+	font-size: 20px;
+	font-family: "Zen Kurenaido", sans-serif;
+	margin-bottom: 150px;
+}
+
+/* 2種のしらす丼 */
+.main-menu-list-2-img {
+	object-position: right top;
+}
+/* 金目鯛の煮付け */
+.main-menu-list-3-img {
+	object-position: 0 0;
+}
+/* 静岡みかんティラミス */
+.main-menu-list-5-img {
+	object-position: 70% 50%;
+}
+
+.main-menu-list ul {
+	display: flex;
+	justify-content: center;
+	/* このラップは折り返す */
+	flex-wrap: wrap;
+}
+/* メニューセット */
+.main-menu-list ul > li > img {
+	margin-bottom: 30px;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+.main-menu-list ul > li {
+	margin: 0 70px;
+	padding: 50px 0;
+}
+
+/* メニュー名・値段 */
+.main-menu-list p {
+	text-align: left;
+	line-height: 30px;
+	margin-left: 50px;
+}
+/* 背景 */
+.main-menu-list {
+	background-color: #f8f8f8;
+	margin-bottom: 50px;
+	border-radius: 30px;
+	padding: 20px;
+}
+/* menu ボタン */
+.main-menu-btn {
+	font-size: 16px;
+	background-color: #67d212;
+	width: 200px;
+	height: 50px;
+	color: #ffffff;
+	border-radius: 100px;
+}
+
+.main-menu-btn:hover {
+	color: #67d212;
+	background-color: #fff;
+	border: 3px solid #67d212;
+}
+/* お知らせ */
+.main-news h2 {
+	margin-top: 70px;
+	font-size: 24px;
+	font-family: "Zen Kurenaido", sans-serif;
+}
+.main-news {
+	/* 背景横 */
+	padding: 0 200px;
+	text-align: center;
+}
+
+/* 葉っぱ */
+.main-news-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 300px;
+	height: 200px;
+	width: 200px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+}
+
+.leaf {
+	background-image: url(../image/leaf2.png);
+}
+
+/* news */
+.main-news-text {
+	font-size: 16px;
+	font-family: "Montserrat", sans-serif;
+	margin-top: 10px;
+}
+
+.main-news-wrapper {
+	padding: 60px;
+	height: 80vh;
+	background-color: #f8f8f8;
+	border-radius: 30px;
+	overflow-y: scroll;
+}
+
+.news-content {
+	height: 60px;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	padding-bottom: 40px;
+	border-bottom: #67d212 dotted 5px;
+}
+.news-text {
+	text-align: left;
+}
+/* 日にち */
+.news-date {
+	width: 200px;
+	text-align: center;
+	margin-top: 20px;
+}
+/* ニュースのタブ */
+.news-tab {
+	width: 160px;
+	height: 40px;
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 50px;
+	color: #ffffff;
+	padding: 10px 0;
+}
+/* お知らせ　黄色 */
+.tab-notice {
+	background-color: #e2e629;
+}
+/* お知らせ　黄緑 */
+.tab-news {
+	background-color: #67d212;
+}
+/* 重要なお知らせ　赤 */
+.tab-aleart {
+	background-color: #d65c5c;
+}
+/* ニューステキスト */
+.news-text {
+	width: 700px;
+	margin: 20px 0 0 50px;
+}
+/* 店舗情報 */
+.main-access {
+	padding: 0 40px;
+	margin-bottom: 300px;
+	text-align: center;
+	justify-content: center;
+}
+.main-access h2 {
+	margin-top: 70px;
+	font-size: 24px;
+	font-family: "Zen Kurenaido", sans-serif;
+	text-align: center;
+}
+
+/* 葉っぱ */
+.main-access-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 300px;
+	height: 200px;
+	width: 200px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+}
+
+.leaf {
+	background-image: url(../image/leaf2.png);
+}
+/* access */
+.main-access-text {
+	font-size: 16px;
+	font-family: "Montserrat", sans-serif;
+	margin-top: 10px;
+}
+
+/* 地図を中央揃え */
+.main-map {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+/* 地図 */
+iframe {
+	margin-bottom: 50px;
+}
+/* 文章を中央揃え */
+.main-map-text {
+	width: 600px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+/* 地図の文章 */
+.map-informaition {
+	display: flex;
+	text-align: left;
+	padding: 10px;
+}
+
+.map-name {
+	margin-right: 100px;
+}
+/* 予約文字 */
+.map-text-span {
+	font-size: 14px;
+}
+.main-map-text-ul > li > p:first-child {
+	width: 65px;
+}
+/* フッター */
+footer {
+	height: 100px;
+	background-color: #67d212;
+}
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 640px) {
+	.index-top {
+		width: 100%;
+		height: 400px;
+		background-image: url(../image/メイン画像.jpeg);
+		background-size: cover;
+		background-position: bottom center;
+	}
+}
