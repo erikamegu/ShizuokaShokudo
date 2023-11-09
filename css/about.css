@@ -1,43 +1,5 @@
 @charset "utf-8";
 
-body {
-	font-family: "Noto Sans JP", sans-serif;
-	color: #4d5156;
-}
-header {
-	padding: 30px 4% 10px;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	z-index: 10;
-}
-/* ロゴ */
-header img {
-	width: 100px;
-	height: 100px;
-}
-header img:hover {
-	opacity: 0.8;
-	transition: 0.3s;
-}
-
-/* ナビ */
-header nav {
-	margin: 0 0 0 auto;
-}
-
-/* ナビ　hover */
-.menu-text-container > li:hover .nav-text-first,
-.menu-text-container > li:hover .nav-text-second {
-	color: #67d212;
-}
-
-header nav ul {
-	display: flex;
-}
-
 .nav-text-first {
 	margin: 0 0 0 50px;
 	font-size: 20px;
@@ -91,17 +53,16 @@ header nav ul {
 
 /* 葉っぱ */
 .about-concept-icon {
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-top: 300px;
+	margin-bottom: 50px;
 	height: 200px;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
 	display: inline-block;
-
 }
 
 .leaf {
@@ -114,12 +75,11 @@ header nav ul {
 }
 /* おばちゃん画像 */
 .about-concept-img {
-
 	border-radius: 50%;
 	width: 300px;
 	height: 300px;
 	object-fit: cover;
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
 	object-position: 70% 50%;
 }
 
@@ -134,7 +94,7 @@ header nav ul {
 	line-height: 35px;
 	padding: 25px;
 	font-family: "Zen Kurenaido", sans-serif;
-	background-image: url(../image/静岡県画像.png);
+	/* background-image: url(../image/静岡県画像.png); */
 	background-size: 30%;
 	background-repeat: no-repeat;
 	background-position: 50% 200%;
@@ -142,6 +102,7 @@ header nav ul {
 
 .about-concept p > span {
 	color: #67d212;
+	font-size: 20px;
 }
 
 .about-concept-2 {
@@ -161,6 +122,7 @@ header nav ul {
 	align-items: center;
 	width: 200px;
 	margin-top: 300px;
+	margin-bottom: 50px;
 	height: 200px;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -228,18 +190,17 @@ header nav ul {
 
 /* 葉っぱ */
 .about-concept-3-icon {
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 200px;
 	margin-top: 300px;
+	margin-bottom: 50px;
 	height: 200px;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
 	display: inline-block;
-
 }
 
 .leaf {

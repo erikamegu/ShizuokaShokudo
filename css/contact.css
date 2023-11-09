@@ -1,42 +1,5 @@
 @charset "utf-8";
 
-body {
-	font-family: "Noto Sans JP", sans-serif;
-	color: #4d5156;
-}
-header {
-	padding: 30px 4% 10px;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	z-index: 10;
-}
-/* ロゴ */
-header img {
-	width: 100px;
-	height: 100px;
-}
-header img:hover {
-	opacity: 0.8;
-	transition: 0.3s;
-}
-
-/* ナビ */
-header nav {
-	margin: 0 0 0 auto;
-}
-/* ナビ　hover */
-.menu-text-container > li:hover .nav-text-first,
-.menu-text-container > li:hover .nav-text-second {
-	color: #67d212;
-}
-
-header nav ul {
-	display: flex;
-}
-
 .nav-text-first {
 	margin: 0 0 0 50px;
 	font-size: 20px;
@@ -119,14 +82,14 @@ header nav ul {
 	font-size: 20px;
 	font-family: "Zen Kurenaido", sans-serif;
 	text-align: center;
-	margin-bottom: 100px;
+	/* margin-bottom: 100px; */
 }
 
 .main-menu-icon {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 100px;
+	margin-top: 50px;
 	height: 200px;
 	width: 200px;
 	background-position: center center;
@@ -146,7 +109,7 @@ header nav ul {
 
 /* フォーム */
 .form {
-	margin-top: 80px;
+	margin-top: 50px;
 	margin-bottom: 300px;
 	margin-left: auto;
 	margin-right: auto;
@@ -159,7 +122,7 @@ header nav ul {
 	}
 }
 .form-item {
-	border-bottom: #67d212 dotted 3px;
+	border-bottom: #67d212 dotted 2px;
 	padding-top: 24px;
 	padding-bottom: 24px;
 	width: 100%;
@@ -250,9 +213,10 @@ header nav ul {
 .form-btn {
 	border-radius: 100px;
 	margin: 0 auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	width: 280px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 15px;
+	width: 250px;
 	display: block;
 	letter-spacing: 0.5em;
 	background: #67d212;
@@ -274,10 +238,9 @@ header nav ul {
 }
 @media screen and (max-width: 480px) {
 	.form-btn {
-		margin-top: 24px;
-		padding-top: 8px;
-		padding-bottom: 8px;
-		width: 160px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		width: 200px;
 		font-size: 16px;
 	}
 	.form-btn:hover {

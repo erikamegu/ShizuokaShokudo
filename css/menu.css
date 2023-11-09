@@ -1,43 +1,5 @@
 @charset "utf-8";
 
-body {
-	font-family: "Noto Sans JP", sans-serif;
-	color: #4d5156;
-}
-header {
-	padding: 30px 4% 10px;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	z-index: 10;
-}
-/* ロゴ */
-header img:hover {
-	opacity: 0.8;
-	transition: 0.3s;
-}
-
-/* ナビ */
-header nav {
-	margin: 0 0 0 auto;
-}
-
-/* ナビ　hover */
-.menu-text-container > li:hover .nav-text-first,
-.menu-text-container > li:hover .nav-text-second {
-	color: #67d212;
-}
-
-header nav ul {
-	display: flex;
-}
-header img {
-	width: 100px;
-	height: 100px;
-}
-
 .nav-text-first {
 	margin: 0 0 0 50px;
 	font-size: 20px;
@@ -117,11 +79,10 @@ header img {
 
 /* 海鮮丼 */
 .menu-mini {
-
 	font-size: 20px;
 	font-family: "Zen Kurenaido", sans-serif;
 	text-align: center;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 /* 葉っぱ */
@@ -130,7 +91,7 @@ header img {
 	justify-content: center;
 	align-items: center;
 	width: 200px;
-	margin-top: 100px;
+	margin-top: 150px;
 	height: 200px;
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -139,8 +100,7 @@ header img {
 }
 /* 海鮮丼葉っぱの位置 */
 .menu-concept-icon h2 {
-	margin-top: 50px;
- 
+	margin-top: 45px;
 }
 
 .small-leaf {

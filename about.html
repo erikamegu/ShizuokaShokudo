@@ -20,17 +20,25 @@
 		<link
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
+		<!-- aanimate -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 		<!-- flickity -->
 		<link
 			rel="stylesheet"
 			href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
-		<!-- Animaate -->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/about.css" />
+		<link rel="stylesheet" href="css/loading.css" />
 	</head>
 	<body>
+		<!-- Loading -->
+		<div id="splash">
+			<div id="splash_logo">
+				<img src="image/しずおか食堂ロゴ完成版2.png" alt="" class="fadeUp" />
+			</div>
+		</div>
 		<!-- ヘッダー -->
 		<header>
 			<!-- ロゴ -->
@@ -81,9 +89,9 @@
 			<h1 class="sub_top archeText fadeInUp">しずおか食堂について</h1>
 		</div>
 		<!-- メインコンテント -->
-		<div class="main-content fadeInUp">
+		<div class="main-content">
 			<!-- 静岡食堂について -->
-			<section class="about-concept fadeIn">
+			<section class="about-concept">
 				<div>
 					<div class="about-concept-icon leaf fadeIn">
 						<h2>
@@ -104,11 +112,11 @@
 			<!-- コンセプト -->
 			<section class="about-concept-2">
 				<div>
-					<div class="about-concept-2-icon leaf">
+					<div class="about-concept-2-icon leaf fadeIn">
 						<h2>コンセプト</h2>
 					</div>
 				</div>
-				<div class="slider-wrapper">
+				<div class="slider-wrapper fadeIn">
 					<div class="carousel" data-flickity='{ "wrapAround": true }'>
 						<div class="carousel-cell">
 							<img
@@ -140,18 +148,18 @@
 			<!-- こだわり -->
 			<section class="about-concept-3">
 				<div>
-					<div class="about-concept-3-icon leaf">
+					<div class="about-concept-3-icon leaf fadeIn">
 						<h2>こだわり</h2>
 					</div>
 				</div>
-				<div class="slider-wrapper">
+				<div class="slider-wrapper fadeIn">
 					<div class="carousel" data-flickity='{ "wrapAround": true }'>
 						<div class="carousel-cell">
 							<img src="image/わさび.jpg" alt="#" class="about-concept-3-img" />
 						</div>
 						<div class="carousel-cell">
 							<img
-								src="image/25978441_s.jpg"
+								src="image/sakuraebi-img.png"
 								alt="#"
 								class="about-concept-3-img" />
 						</div>
@@ -174,6 +182,13 @@
 		<footer>
 			<p>shizuoka dining room</p>
 		</footer>
+		<script>
+			//logoの表示
+			$(window).on("load", function () {
+				$("#splash").delay(1500).fadeOut("slow"); //ローディング画面を1.5秒（1500ms）待機してからフェードアウト
+				$("#splash_logo").delay(1200).fadeOut("slow"); //ロゴを1.2秒（1200ms）待機してからフェードアウト
+			});
+		</script>
 		<script src="js/fadein.js"></script>
 	</body>
 </html>

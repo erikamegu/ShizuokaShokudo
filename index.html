@@ -1,412 +1,421 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>しずおか食堂</title>
-        <!-- jQuery -->
-        <script
-            type="text/javascript"
-            src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
-        ></script>
-        <!-- arctext -->
-        <script type="text/javascript" src="js/jquery.arctext.js"></script>
-        <!-- flickity -->
-        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-        <!-- google -->
-        <script
-            type="text/javascript"
-            src="http://www.google.com/jsapi"
-        ></script>
-        <!-- Montserrat Zen kurenaido Noto Sans Jp -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600&family=Zen+Kurenaido&display=swap"
-            rel="stylesheet"
-        />
-        <!-- リセットCSS -->
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"
-        />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>しずおか食堂</title>
+		<!-- jQuery -->
+		<script
+			type="text/javascript"
+			src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<!-- arctext -->
+		<script type="text/javascript" src="js/jquery.arctext.js"></script>
+		<!-- flickity -->
+		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+		<!-- google -->
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<!-- Montserrat Zen kurenaido Noto Sans Jp -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600&family=Zen+Kurenaido&display=swap"
+			rel="stylesheet" />
+		<!-- リセットCSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
+		<!-- aanimate -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<link rel="stylesheet" href="css/flickty.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/loading.css" />
+	</head>
+	<body>
+		<!-- Loading -->
+		<div id="splash">
+			<div id="splash_logo">
+				<img
+					decoding="”async”"
+					src="image/しずおか食堂ロゴ完成版2.png"
+					alt=""
+					class="fadeUp" />
+			</div>
+		</div>
+		<!-- ヘッダー -->
+		<header>
+			<!-- ロゴ -->
+			<h1>
+				<a href="index.html"
+					><img decoding="”async”" src="image/しずおか食堂ロゴ完成版2.png"
+				/></a>
+			</h1>
+			<!-- ナビ -->
+			<nav>
+				<ul class="menu-text-container">
+					<li>
+						<div class="nav-text">
+							<a href="index.html">
+								<p class="nav-text-first">home</p>
+								<p class="nav-text-second">トップページ</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<a href="about.html">
+							<p class="nav-text-first">about</p>
+							<p class="nav-text-second">しずおか食堂<br />について</p>
+						</a>
+					</li>
+					<li>
+						<a href="menu.html">
+							<p class="nav-text-first">menu</p>
+							<p class="nav-text-second">お品書き</p>
+						</a>
+					</li>
+					<!-- newsに飛ぶ -->
+					<li>
+						<a href="index.html#news">
+							<p class="nav-text-first">news</p>
+							<p class="nav-text-second">お知らせ</p>
+						</a>
+					</li>
+					<li>
+						<a href="contact.html">
+							<p class="nav-text-first">contact</p>
+							<p class="nav-text-second">お問い合わせ</p>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- メインビジュアル画像の文字 -->
+		<div class="index-top fadeIn">
+			<h1 class="sub_top archeText fadeInUp">しずおか食堂</h1>
+		</div>
+		<!-- メイン -->
+		<div class="main-content">
+			<!-- しずおか食堂とは？ -->
+			<section class="main-concept">
+				<!-- 葉っぱ -->
+				<div>
+					<div class="main-concept-icon leaf fadeIn">
+						<h2>
+							しずおか食堂とは？<br />
+							<div class="main-concept-text">Concept</div>
+						</h2>
+					</div>
+				</div>
+				<img
+					decoding="”async”"
+					src="image/しずおか食堂画像.jpeg"
+					alt="#"
+					class="main-concept-img fadeIn" />
+				<p class="fadeIn">
+					&nbsp;&nbsp;静岡市にある『<span>しずおか食堂</span>』とは、静岡県で有名な桜えびやしらす、金目鯛などの海鮮グルメをはじめ、静岡県産のお野菜やお肉、お米を中心に静岡の魅力が詰まったお食事を提供しています。<br />
+					&nbsp;&nbsp;また、いちごやみかん、メロンなどの静岡県の特産品である果物を使ったスイーツもお楽しみいただけます。地元の方から県外の方まで、沢山の人に足を運んでいただけたら嬉しいです。
+				</p>
+				<!-- ボタン -->
+				<button class="main-concept-btn" type="button">
+					<a href="about.html">もっと見る</a>
+				</button>
+			</section>
+			<!-- お品書き -->
+			<section class="main-menu">
+				<!-- 葉っぱ -->
+				<div>
+					<div class="main-menu-icon leaf fadeIn">
+						<h2>
+							お品書き<br />
+							<div class="main-menu-text">menu</div>
+						</h2>
+					</div>
+				</div>
+				<div class="main-menu-text-second">おすすめメニュー</div>
+				<div class="main-menu-list">
+					<ul>
+						<!-- たっぷり海鮮丼 -->
+						<li class="main-menu-list-1">
+							<img
+								decoding="”async”"
+								src="image/たっぷり海鮮丼.jpeg"
+								alt="#"
+								class="main-menu-list-1-img fadeIn" />
+							<div>
+								<p>
+									たっぷり海鮮丼<br />
+									1,680円(税込1,848円)
+								</p>
+							</div>
+						</li>
+						<!-- 2種のしらす丼 -->
+						<li class="main-menu-list-2">
+							<img
+								decoding="”async”"
+								src="image/２種のしらす丼.jpeg"
+								alt="#"
+								class="main-menu-list-2-img fadeIn" />
+							<div>
+								<p>
+									2種のしらす丼<br />
+									1,380円(税込1,518円)
+								</p>
+							</div>
+						</li>
+						<!-- 金目鯛の煮付け -->
+						<li class="main-menu-list-3">
+							<img
+								decoding="”async”"
+								src="image/金目鯛の煮付け.jpeg"
+								alt="#"
+								class="main-menu-list-3-img fadeIn" />
+							<div>
+								<p>
+									金真鯛の煮付け<br />
+									830円(税込913円)
+								</p>
+							</div>
+						</li>
 
-        <link rel="stylesheet" href="css/flickty.css" />
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
-    <body>
-        <!-- ヘッダー -->
-        <header>
-            <!-- ロゴ -->
-            <h1>
-                <a href="index.html"
-                    ><img src="image/しずおか食堂ロゴ完成版2.png"
-                /></a>
-            </h1>
-            <!-- ナビ -->
-            <nav>
-                <ul class="menu-text-container">
-                    <li>
-                        <div class="nav-text">
-                            <a href="index.html">
-                                <p class="nav-text-first">home</p>
-                                <p class="nav-text-second">トップページ</p>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="about.html">
-                            <p class="nav-text-first">about</p>
-                            <p class="nav-text-second">
-                                しずおか食堂<br />について
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="menu.html">
-                            <p class="nav-text-first">menu</p>
-                            <p class="nav-text-second">お品書き</p>
-                        </a>
-                    </li>
-                    <!-- newsに飛ぶ -->
-                    <li>
-                        <a
-                            href="file:///c%3A/Users/Erika/Desktop/%E3%81%97%E3%81%9A%E3%81%8A%E3%81%8B%E9%A3%9F%E5%A0%82/index.html#news"
-                        >
-                            <p class="nav-text-first">news</p>
-                            <p class="nav-text-second">お知らせ</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contact.html">
-                            <p class="nav-text-first">contact</p>
-                            <p class="nav-text-second">お問い合わせ</p>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!-- メインビジュアル画像の文字 -->
-        <div class="index-top">
-            <h1 class="sub_top archeText">しずおか食堂</h1>
-        </div>
-        <!-- メイン -->
-        <div class="main-content">
-            <!-- しずおか食堂とは？ -->
-            <section class="main-concept">
-                <!-- 葉っぱ -->
-                <div>
-                    <div class="main-concept-icon leaf">
-                        <h2>
-                            しずおか食堂とは？<br />
-                            <div class="main-concept-text">Concept</div>
-                        </h2>
-                    </div>
-                </div>
-                <img
-                    src="image/しずおか食堂画像.jpeg"
-                    alt="#"
-                    class="main-concept-img"
-                />
-                <p>
-                    &nbsp;&nbsp;静岡市にある『<span>しずおか食堂</span>』とは、静岡県で有名な桜えびやしらす、金目鯛などの海鮮グルメをはじめ、静岡県産のお野菜やお肉、お米を中心に静岡の魅力が詰まったお食事を提供しています。<br />
-                    &nbsp;&nbsp;また、いちごやみかん、メロンなどの静岡県の特産品である果物を使ったスイーツもお楽しみいただけます。地元の方から県外の方まで、沢山の人に足を運んでいただけたら嬉しいです。
-                </p>
-                <!-- ボタン -->
-                <button class="main-concept-btn" type="button">
-                    <a href="about.html">もっと見る</a>
-                </button>
-            </section>
-            <!-- お品書き -->
-            <section class="main-menu">
-                <!-- 葉っぱ -->
-                <div>
-                    <div class="main-menu-icon leaf">
-                        <h2>
-                            お品書き<br />
-                            <div class="main-menu-text">menu</div>
-                        </h2>
-                    </div>
-                </div>
-                <div class="main-menu-text-second">おすすめメニュー</div>
-                <div class="main-menu-list">
-                    <ul>
-                        <!-- たっぷり海鮮丼 -->
-                        <li class="main-menu-list-1">
-                            <img
-                                src="image/たっぷり海鮮丼.jpeg"
-                                alt="#"
-                                class="main-menu-list-1-img"
-                            />
-                            <div>
-                                <p>
-                                    たっぷり海鮮丼<br />
-                                    1,680円(税込1,848円)
-                                </p>
-                            </div>
-                        </li>
-                        <!-- 2種のしらす丼 -->
-                        <li class="main-menu-list-2">
-                            <img
-                                src="image/２種のしらす丼.jpeg"
-                                alt="#"
-                                class="main-menu-list-2-img"
-                            />
-                            <div>
-                                <p>
-                                    2種のしらす丼<br />
-                                    1,380円(税込1,518円)
-                                </p>
-                            </div>
-                        </li>
-                        <!-- 金目鯛の煮付け -->
-                        <li class="main-menu-list-3">
-                            <img
-                                src="image/金目鯛の煮付け.jpeg"
-                                alt="#"
-                                class="main-menu-list-3-img"
-                            />
-                            <div>
-                                <p>
-                                    金真鯛の煮付け<br />
-                                    830円(税込913円)
-                                </p>
-                            </div>
-                        </li>
+						<!-- 桜えびの釜飯 -->
+						<li class="main-menu-list-4">
+							<img
+								decoding="”async”"
+								src="image/桜えびの釜飯.jpg"
+								alt="#"
+								class="main-menu-list-4-img fadeIn" />
+							<div>
+								<p>
+									桜えびの釜飯<br />
+									1,380円(税込1,518円)
+								</p>
+							</div>
+						</li>
+						<!-- 静岡みかんティラミス -->
+						<li class="main-menu-list-5">
+							<img
+								decoding="”async”"
+								src="image/夏みかんティラミス.jpg"
+								alt="#"
+								class="main-menu-list-5-img fadeIn" />
+							<div>
+								<p>
+									静岡みかんティラミス<br />
+									409円(税込450円)
+								</p>
+							</div>
+						</li>
+						<!-- 白玉と抹茶のアイス -->
+						<li class="main-menu-list-6">
+							<img
+								decoding="”async”"
+								src="image/白玉と抹茶のアイス.jpg"
+								alt="#"
+								class="main-menu-list-6-img fadeIn" />
+							<div>
+								<p>
+									白玉と抹茶のアイス<br />
+									380円(税込418円)
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- ボタン -->
+				<button class="main-menu-btn" type="button">
+					<a href="menu.html">もっと見る</a>
+				</button>
+			</section>
+			<!-- お知らせ -->
+			<section class="main-news">
+				<div>
+					<div class="main-news-icon leaf fadeIn">
+						<h2>
+							お知らせ<br />
+							<div class="main-news-text">news</div>
+						</h2>
+					</div>
+				</div>
+				<!-- お知らせリスト -->
+				<div class="main-news-wrapper news-scroll fadeIn" id="news">
+					<!-- １行目 -->
+					<div class="news-content">
+						<div class="news-date">2023.10.13</div>
+						<span class="news-tab tab-notice">お知らせ</span>
+						<div class="news-text">
+							11月よりテイクアウトを開始する予定です。詳細は追ってホームページに記載します。皆さんぜひご利用ください！
+						</div>
+					</div>
+					<!-- ２行目 -->
+					<div class="news-content">
+						<div class="news-date">2023.9.25</div>
+						<span class="news-tab tab-news">メニュー</span>
+						<div class="news-text">
+							本日桜えびのかき揚げを、限定20食無料で提供させて頂きます！ご飯とお味噌汁もセットでお出しします。
+						</div>
+					</div>
+					<!-- ３行目 -->
+					<div class="news-content">
+						<div class="news-date">2023.8.10</div>
+						<span class="news-tab tab-aleart">重要</span>
+						<div class="news-text">
+							8/23より2店舗目の『しずおか第2食堂』が清水にopenすることになりました！詳しくはホムページをご確認ください。
+						</div>
+					</div>
+					<!-- 4行目 -->
+					<div class="news-content">
+						<div class="news-date">2023.7.20</div>
+						<span class="news-tab tab-news">メニュー</span>
+						<div class="news-text">
+							本日より新メニューの『あじの活き造り丼』が提供開始します！皆さんぜひ注文してみてください。
+						</div>
+					</div>
+					<!-- 5行目 -->
+					<div class="news-content">
+						<div class="news-date">2023.6.13</div>
+						<span class="news-tab tab-notice">お知らせ</span>
+						<div class="news-text">
+							6/23でしずおか食堂がopenして2年経ちます。2周年記念ということで、6/23~25までの3日間全品20％offで提供させて頂きます！
+						</div>
+					</div>
+					<!-- 6行目 -->
+					<div class="news-content">
+						<div class="news-date">2023.5.25</div>
+						<span class="news-tab tab-news">メニュー</span>
+						<div class="news-text">
+							『新茶まつり』を開催します！新茶を使ったジェラートやわらび餅などのスイーツをご堪能いただけます。
+						</div>
+					</div>
+					<!-- 7行目 -->
+					<div class="news-content">
+						<div class="news-date">2023.4.24</div>
+						<span class="news-tab tab-news">メニュー</span>
+						<div class="news-text">
+							本日のみ限定で、2種のしらす丼をご注文頂いたお客様は『しらす大盛り無料』とさせていただきます。
+						</div>
+					</div>
+					<!-- 8行目 -->
+					<div class="news-content">
+						<div class="news-date">2023.3.13</div>
+						<span class="news-tab tab-notice">お知らせ</span>
+						<div class="news-text">
+							3/21~3/25までの5日間、店内改装のため休業とさせて頂きます。3/26より営業再開しますので、よろしくお願いします。
+						</div>
+					</div>
+					<!-- 9行目 -->
+					<div class="news-content">
+						<div class="news-date">2023.2.10</div>
+						<span class="news-tab tab-news">メニュー</span>
+						<div class="news-text">
+							本日限定で桜えびを使ったメニュー全品100円引きとさせていただきます。皆さんぜびご来店ください。
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- 店舗情報 -->
+			<section class="main-access">
+				<div>
+					<div class="main-access-icon leaf">
+						<h2>
+							店舗情報<br />
+							<div class="main-access-text">access</div>
+						</h2>
+					</div>
+				</div>
+				<!-- 地図 -->
+				<div class="main-map">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13085.203711364906!2d138.3696766!3d34.9239891!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601a496d50273a1d%3A0x1afd369b07c48884!2z55So5a6X5riv!5e0!3m2!1sja!2sjp!4v1698591660765!5m2!1sja!2sjp"
+						width="600"
+						height="450"
+						style="border: 0"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<!-- 地図の文章 -->
+					<div class="main-map-text">
+						<ul class="main-map-text-ul">
+							<li class="map-informaition">
+								<p class="map-name">店名</p>
+								<p class="map-text">しずおか食堂</p>
+							</li>
+							<li class="map-informaition">
+								<p class="map-name">住所</p>
+								<p class="map-text">静岡県静岡市用宗7-20</p>
+							</li>
+							<li class="map-informaition">
+								<p class="map-name">ＴＥＬ</p>
+								<p class="map-text">000-0000-0000</p>
+							</li>
+							<li class="map-informaition">
+								<p class="map-name">営業時間</p>
+								<p class="map-text">
+									am10:00~14:00&nbsp;&nbsp;&nbsp;&nbsp;pm16:00~20:00
+								</p>
+							</li>
+							<li class="map-informaition">
+								<p class="map-name">定休日</p>
+								<p class="map-text">火曜日</p>
+							</li>
+							<li class="map-informaition">
+								<p class="map-name">予約</p>
+								<p class="map-text">予約不可</p>
+								<p class="map-text">
+									<span class="map-text-span"
+										>&nbsp;&nbsp;&nbsp;&nbsp;※直接お店までお越しください</span
+									>
+								</p>
+							</li>
+							<li class="map-informaition">
+								<p class="map-name">交通手段</p>
+								<p class="map-text">用宗駅より徒歩10分</p>
+							</li>
+							<li class="map-informaition">
+								<p class="map-name">駐車場</p>
+								<p class="map-text">
+									あり&nbsp;&nbsp;&nbsp;&nbsp;10台まで停めれます
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!-- メインのdiv -->
+		</div>
+		<!-- フッター -->
+		<footer>
+			<p>shizuoka dining room</p>
+		</footer>
+		<script src="js/fadein.js"></script>
+		<script type="text/javascript">
+			var $archeText = $(".archeText").hide();
 
-                        <!-- 桜えびの釜飯 -->
-                        <li class="main-menu-list-4">
-                            <img
-                                src="image/桜えびの釜飯.jpg"
-                                alt="#"
-                                class="main-menu-list-4-img"
-                            />
-                            <div>
-                                <p>
-                                    桜えびの釜飯<br />
-                                    1,380円(税込1,518円)
-                                </p>
-                            </div>
-                        </li>
-                        <!-- 静岡みかんティラミス -->
-                        <li class="main-menu-list-5">
-                            <img
-                                src="image/夏みかんティラミス.jpg"
-                                alt="#"
-                                class="main-menu-list-5-img"
-                            />
-                            <div>
-                                <p>
-                                    静岡みかんティラミス<br />
-                                    409円(税込450円)
-                                </p>
-                            </div>
-                        </li>
-                        <!-- 白玉と抹茶のアイス -->
-                        <li class="main-menu-list-6">
-                            <img
-                                src="image/白玉と抹茶のアイス.jpg"
-                                alt="#"
-                                class="main-menu-list-6-img"
-                            />
-                            <div>
-                                <p>
-                                    白玉と抹茶のアイス<br />
-                                    380円(税込418円)
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <!-- ボタン -->
-                <button class="main-menu-btn" type="button">
-                    <a href="menu.html">もっと見る</a>
-                </button>
-            </section>
-            <!-- お知らせ -->
-            <section class="main-news" id="news">
-                <div>
-                    <div class="main-news-icon leaf">
-                        <h2>
-                            お知らせ<br />
-                            <div class="main-news-text">news</div>
-                        </h2>
-                    </div>
-                </div>
-                <!-- お知らせリスト -->
-                <div class="main-news-wrapper news-scroll">
-                    <!-- １行目 -->
-                    <div class="news-content">
-                        <div class="news-date">2023.10.13</div>
-                        <span class="news-tab tab-notice">お知らせ</span>
-                        <div class="news-text">
-                            11月よりテイクアウトを開始する予定です。詳細は追ってホームページに記載します。皆さんぜひご利用ください！
-                        </div>
-                    </div>
-                    <!-- ２行目 -->
-                    <div class="news-content">
-                        <div class="news-date">2023.9.25</div>
-                        <span class="news-tab tab-news">メニュー</span>
-                        <div class="news-text">
-                            本日桜えびのかき揚げを、限定20食無料で提供させて頂きます！ご飯とお味噌汁もセットでお出しします。
-                        </div>
-                    </div>
-                    <!-- ３行目 -->
-                    <div class="news-content">
-                        <div class="news-date">2023.8.10</div>
-                        <span class="news-tab tab-aleart">重要</span>
-                        <div class="news-text">
-                            8/23より2店舗目の『しずおか第2食堂』が清水にopenすることになりました！詳しくはホムページをご確認ください。
-                        </div>
-                    </div>
-                    <!-- 4行目 -->
-                    <div class="news-content">
-                        <div class="news-date">2023.7.20</div>
-                        <span class="news-tab tab-news">メニュー</span>
-                        <div class="news-text">
-                            本日より新メニューの『あじの活き造り丼』が提供開始します！皆さんぜひ注文してみてください。
-                        </div>
-                    </div>
-                    <!-- 5行目 -->
-                    <div class="news-content">
-                        <div class="news-date">2023.6.13</div>
-                        <span class="news-tab tab-notice">お知らせ</span>
-                        <div class="news-text">
-                            6/23でしずおか食堂がopenして2年経ちます。2周年記念ということで、6/23~25までの3日間全品20％offで提供させて頂きます！
-                        </div>
-                    </div>
-                    <!-- 6行目 -->
-                    <div class="news-content">
-                        <div class="news-date">2023.5.25</div>
-                        <span class="news-tab tab-news">メニュー</span>
-                        <div class="news-text">
-                            『新茶まつり』を開催します！新茶を使ったジェラートやわらび餅などのスイーツをご堪能いただけます。
-                        </div>
-                    </div>
-                    <!-- 7行目 -->
-                    <div class="news-content">
-                        <div class="news-date">2023.4.24</div>
-                        <span class="news-tab tab-news">メニュー</span>
-                        <div class="news-text">
-                            本日のみ限定で、2種のしらす丼をご注文頂いたお客様は『しらす大盛り無料』とさせていただきます。
-                        </div>
-                    </div>
-                    <!-- 8行目 -->
-                    <div class="news-content">
-                        <div class="news-date">2023.3.13</div>
-                        <span class="news-tab tab-notice">お知らせ</span>
-                        <div class="news-text">
-                            3/21~3/25までの5日間、店内改装のため休業とさせて頂きます。3/26より営業再開しますので、よろしくお願いします。
-                        </div>
-                    </div>
-                    <!-- 9行目 -->
-                    <div class="news-content">
-                        <div class="news-date">2023.2.10</div>
-                        <span class="news-tab tab-news">メニュー</span>
-                        <div class="news-text">
-                            本日限定で桜えびを使ったメニュー全品100円引きとさせていただきます。皆さんぜびご来店ください。
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- 店舗情報 -->
-            <section class="main-access">
-                <div>
-                    <div class="main-access-icon leaf">
-                        <h2>
-                            店舗情報<br />
-                            <div class="main-access-text">access</div>
-                        </h2>
-                    </div>
-                </div>
-                <!-- 地図 -->
-                <div class="main-map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13085.203711364906!2d138.3696766!3d34.9239891!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601a496d50273a1d%3A0x1afd369b07c48884!2z55So5a6X5riv!5e0!3m2!1sja!2sjp!4v1698591660765!5m2!1sja!2sjp"
-                        width="600"
-                        height="450"
-                        style="border: 0"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                    ></iframe>
-                    <!-- 地図の文章 -->
-                    <div class="main-map-text">
-                        <ul class="main-map-text-ul">
-                            <li class="map-informaition">
-                                <p class="map-name">店名</p>
-                                <p class="map-text">しずおか食堂</p>
-                            </li>
-                            <li class="map-informaition">
-                                <p class="map-name">住所</p>
-                                <p class="map-text">静岡県静岡市用宗7-20</p>
-                            </li>
-                            <li class="map-informaition">
-                                <p class="map-name">ＴＥＬ</p>
-                                <p class="map-text">000-0000-0000</p>
-                            </li>
-                            <li class="map-informaition">
-                                <p class="map-name">営業時間</p>
-                                <p class="map-text">
-                                    am10:00~14:00&nbsp;&nbsp;&nbsp;&nbsp;pm16:00~20:00
-                                </p>
-                            </li>
-                            <li class="map-informaition">
-                                <p class="map-name">定休日</p>
-                                <p class="map-text">火曜日</p>
-                            </li>
-                            <li class="map-informaition">
-                                <p class="map-name">予約</p>
-                                <p class="map-text">予約不可</p>
-                                <p class="map-text">
-                                    <span class="map-text-span"
-                                        >&nbsp;&nbsp;&nbsp;&nbsp;※直接お店までお越しください</span
-                                    >
-                                </p>
-                            </li>
-                            <li class="map-informaition">
-                                <p class="map-name">交通手段</p>
-                                <p class="map-text">用宗駅より徒歩10分</p>
-                            </li>
-                            <li class="map-informaition">
-                                <p class="map-name">駐車場</p>
-                                <p class="map-text">
-                                    あり&nbsp;&nbsp;&nbsp;&nbsp;10台まで停めれます
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <!-- メインのdiv -->
-        </div>
-        <!-- フッター -->
-        <footer>
-            <p>shizuoka dining room</p>
-        </footer>
+			google.load("webfont", "1");
 
-        <script type="text/javascript">
-            var $archeText = $(".archeText").hide();
+			google.setOnLoadCallback(function () {
+				WebFont.load({
+					google: {
+						families: ["Montserrat", "Concert One"],
+					},
+					fontactive: function (fontFamily, fontDescription) {
+						init();
+					},
+					fontinactive: function (fontFamily, fontDescription) {
+						init();
+					},
+				});
+			});
 
-            google.load("webfont", "1");
+			function init() {
+				$archeText.show().arctext({ radius: 300 });
+			}
 
-            google.setOnLoadCallback(function () {
-                WebFont.load({
-                    google: {
-                        families: ["Montserrat", "Concert One"],
-                    },
-                    fontactive: function (fontFamily, fontDescription) {
-                        init();
-                    },
-                    fontinactive: function (fontFamily, fontDescription) {
-                        init();
-                    },
-                });
-            });
-
-            function init() {
-                $archeText.show().arctext({ radius: 300 });
-            }
-        </script>
-    </body>
+			//logoの表示
+			$(window).on("load", function () {
+				$("#splash").delay(1500).fadeOut("slow"); //ローディング画面を1.5秒（1500ms）待機してからフェードアウト
+				$("#splash_logo").delay(1200).fadeOut("slow"); //ロゴを1.2秒（1200ms）待機してからフェードアウト
+			});
+		</script>
+	</body>
 </html>
