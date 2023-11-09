@@ -117,6 +117,7 @@ header img {
 
 /* 海鮮丼 */
 .menu-mini {
+
 	font-size: 20px;
 	font-family: "Zen Kurenaido", sans-serif;
 	text-align: center;
@@ -139,6 +140,7 @@ header img {
 /* 海鮮丼葉っぱの位置 */
 .menu-concept-icon h2 {
 	margin-top: 50px;
+ 
 }
 
 .small-leaf {
