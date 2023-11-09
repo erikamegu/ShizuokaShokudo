@@ -1,293 +1,294 @@
 @charset "utf-8";
 
 body {
-    font-family: "Noto Sans JP", sans-serif;
-    color: #4d5156;
+	font-family: "Noto Sans JP", sans-serif;
+	color: #4d5156;
 }
 header {
-    padding: 30px 4% 10px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
+	padding: 30px 4% 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	z-index: 10;
 }
 /* ロゴ */
 header img {
-    width: 100px;
-    height: 100px;
+	width: 100px;
+	height: 100px;
 }
 header img:hover {
-    opacity: 0.8;
-    transition: 0.3s;
+	opacity: 0.8;
+	transition: 0.3s;
 }
 
 /* ナビ */
 header nav {
-    margin: 0 0 0 auto;
+	margin: 0 0 0 auto;
 }
 /* ナビ　hover */
 .menu-text-container > li:hover .nav-text-first,
 .menu-text-container > li:hover .nav-text-second {
-    color: #67d212;
+	color: #67d212;
 }
 
 header nav ul {
-    display: flex;
+	display: flex;
 }
 
 .nav-text-first {
-    margin: 0 0 0 50px;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(196, 237, 172);
-    font-family: "Montserrat", sans-serif;
-    padding-bottom: 10px;
+	margin: 0 0 0 50px;
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(196, 237, 172);
+	font-family: "Montserrat", sans-serif;
+	padding-bottom: 10px;
 }
 
 /* ナビ下の文字 */
 .nav-text-second {
-    font-family: "Zen Kurenaido", sans-serif;
-    font-size: 13px;
-    color: rgb(196, 237, 172);
-    margin: 0 0 0 50px;
+	font-family: "Zen Kurenaido", sans-serif;
+	font-size: 13px;
+	color: rgb(196, 237, 172);
+	margin: 0 0 0 50px;
 }
 
 /* メイン画像 */
 .index-top {
-    min-height: 100vh;
-    background-image: url(../image/26920162_s.jpg);
-    background-size: cover;
-    background-position: center;
+	min-height: 100vh;
+	background-image: url(../image/26920162_s.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
 /* メイン画像　テキスト */
 .sub_top {
-    padding-top: 40vh;
-    padding-left: 5vw;
-    text-align: center;
-    font-family: "Zen Kurenaido", sans-serif;
-    font-weight: bold;
-    color: #fff;
-    font-size: 50px;
-    letter-spacing: 0.5em;
-    -moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    -webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    -ms-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	padding-top: 40vh;
+	padding-left: 5vw;
+	text-align: center;
+	font-family: "Zen Kurenaido", sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 50px;
+	letter-spacing: 0.5em;
+	-moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	-webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	-ms-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* お問い合わせ */
 .contact-title {
-    font-size: 24px;
-    font-family: "Zen Kurenaido", sans-serif;
-    text-align: center;
+	font-size: 24px;
+	font-family: "Zen Kurenaido", sans-serif;
+	text-align: center;
 }
 
 /* 葉っぱ */
 .main-contact-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 300px;
-    height: 200px;
-    width: 250px;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 300px;
+	height: 200px;
+	width: 250px;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
 }
 
 .leaf {
-    background-image: url(../image/leaf1.png);
+	background-image: url(../image/leaf1.png);
 }
 
 .main-contact-icon h2 {
-    margin-top: 50px;
+	margin-top: 50px;
 }
 
 /* contact */
 .contact-sabu {
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-    margin-top: 10px;
-    text-align: center;
+	font-size: 16px;
+	font-family: "Montserrat", sans-serif;
+	margin-top: 10px;
+	text-align: center;
 }
 /* お問い合わせフォーム */
 .contact-mini {
-    font-size: 20px;
-    font-family: "Zen Kurenaido", sans-serif;
-    text-align: center;
-    /* margin-bottom: 100px; */
+	font-size: 20px;
+	font-family: "Zen Kurenaido", sans-serif;
+	text-align: center;
+	margin-bottom: 100px;
 }
 
 .main-menu-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    height: 200px;
-    width: 200px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	height: 200px;
+	width: 200px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
 }
 
 .main-menu-icon > h2 {
-    margin-top: 85px;
+	margin-top: 85px;
 }
 
 /* 葉っぱ */
 .small-leaf {
-    background-image: url(../image/leaf2.png);
+	background-image: url(../image/leaf2.png);
 }
 
 /* フォーム */
 .form {
-    margin-top: 50px;
-    margin-bottom: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 720px;
-    font-family: "Noto Sans JP", sans-serif;
+	margin-top: 80px;
+	margin-bottom: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 720px;
+	font-family: "Noto Sans JP", sans-serif;
 }
 @media screen and (max-width: 480px) {
-    .form {
-        margin-top: 40px;
-    }
+	.form {
+		margin-top: 40px;
+	}
 }
 .form-item {
-    border-bottom: #67d212 dotted 2px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    width: 100%;
-    display: flex;
-    align-items: center;
+	border-bottom: #67d212 dotted 3px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	width: 100%;
+	display: flex;
+	align-items: center;
 }
 @media screen and (max-width: 480px) {
-    .form-item {
-        padding-left: 14px;
-        padding-right: 14px;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        flex-wrap: wrap;
-    }
+	.form-item {
+		padding-left: 14px;
+		padding-right: 14px;
+		padding-top: 16px;
+		padding-bottom: 16px;
+		flex-wrap: wrap;
+	}
 }
 .form-item-label {
-    width: 100%;
-    max-width: 248px;
-    letter-spacing: 0.05em;
-    /* font-weight: bold; */
-    font-size: 18px;
+	width: 100%;
+	max-width: 248px;
+	letter-spacing: 0.05em;
+	/* font-weight: bold; */
+	font-size: 18px;
 }
 @media screen and (max-width: 480px) {
-    .form-item-label {
-        max-width: inherit;
-        display: flex;
-        align-items: center;
-        font-size: 15px;
-    }
+	.form-item-label {
+		max-width: inherit;
+		display: flex;
+		align-items: center;
+		font-size: 15px;
+	}
 }
 .form-item-label.ismsg {
-    margin-top: 8px;
-    margin-bottom: auto;
+	margin-top: 8px;
+	margin-bottom: auto;
 }
 @media screen and (max-width: 480px) {
-    .form-item-label.ismsg {
-        margin-top: 0;
-    }
+	.form-item-label.ismsg {
+		margin-top: 0;
+	}
 }
 /* フォームの色装飾 */
 .form-item-input {
-    /* border: 1px solid #ddd; */
-    border: 2px solid #c2c2c2;
-    border-radius: 15px;
-    margin-left: 40px;
-    padding-left: 1em;
-    padding-right: 1em;
-    height: 48px;
-    flex: 1;
-    width: 100%;
-    max-width: 410px;
-    /* background: #eaedf2; */
-    background: #fff;
-    font-size: 18px;
+	/* border: 1px solid #ddd; */
+	border: 2px solid #c2c2c2;
+	border-radius: 15px;
+	margin-left: 40px;
+	padding-left: 1em;
+	padding-right: 1em;
+	height: 48px;
+	flex: 1;
+	width: 100%;
+	max-width: 410px;
+	/* background: #eaedf2; */
+	background: #fff;
+	font-size: 18px;
 }
 @media screen and (max-width: 480px) {
-    .form-item-input {
-        margin-left: 0;
-        margin-top: 18px;
-        height: 40px;
-        flex: inherit;
-        font-size: 15px;
-    }
+	.form-item-input {
+		margin-left: 0;
+		margin-top: 18px;
+		height: 40px;
+		flex: inherit;
+		font-size: 15px;
+	}
 }
 /* お問い合わせテキスト */
 .form-item-textarea {
-    border: 2px solid #c2c2c2;
-    border-radius: 20px;
-    margin-left: 40px;
-    padding-left: 1em;
-    padding-right: 1em;
-    height: 216px;
-    flex: 1;
-    width: 100%;
-    max-width: 410px;
-    background: #fff;
-    font-size: 18px;
+	border: 2px solid #c2c2c2;
+	border-radius: 20px;
+	margin-left: 40px;
+	padding-left: 1em;
+	padding-right: 1em;
+	height: 216px;
+	flex: 1;
+	width: 100%;
+	max-width: 410px;
+	background: #fff;
+	font-size: 18px;
 }
 @media screen and (max-width: 480px) {
-    .form-item-textarea {
-        margin-top: 18px;
-        margin-left: 0;
-        height: 200px;
-        flex: inherit;
-        font-size: 15px;
-    }
+	.form-item-textarea {
+		margin-top: 18px;
+		margin-left: 0;
+		height: 200px;
+		flex: inherit;
+		font-size: 15px;
+	}
 }
 .form-btn {
-    border-radius: 100px;
-    margin: 0 auto;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 15px;
-    width: 250px;
-    display: block;
-    letter-spacing: 0.5em;
-    background: #67d212;
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    border: 3px solid #67d212;
+	border-radius: 100px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 280px;
+	display: block;
+	letter-spacing: 0.5em;
+	background: #67d212;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	border: 3px solid #67d212;
 }
 
 .form-btn:hover {
-    color: #67d212;
-    background-color: #fff;
-    border: 3px solid #67d212;
+	color: #67d212;
+	background-color: #fff;
+	border: 3px solid #67d212;
 }
 
 .form-btn-box {
-    margin-top: 100px;
+	margin-top: 100px;
 }
 @media screen and (max-width: 480px) {
-    .form-btn {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 200px;
-        font-size: 16px;
-    }
-    .form-btn:hover {
-        color: #67d212;
-        background-color: #fff;
-        border: 3px solid #67d212;
-    }
+	.form-btn {
+		margin-top: 24px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		width: 160px;
+		font-size: 16px;
+	}
+	.form-btn:hover {
+		color: #67d212;
+		background-color: #fff;
+		border: 3px solid #67d212;
+	}
 }
 
 /* フッター */
 footer {
-    height: 100px;
-    background-color: #67d212;
+	height: 100px;
+	background-color: #67d212;
 }
