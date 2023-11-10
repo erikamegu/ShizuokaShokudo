@@ -1,161 +1,170 @@
 <!DOCTYPE html>
 <html lang="ja">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>しずおか食堂</title>
-		<!-- jQuery -->
-		<script
-			type="text/javascript"
-			src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<!-- Montserrat Zen kurenaido Noto Sans Jp -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600&family=Zen+Kurenaido&display=swap"
-			rel="stylesheet" />
-		<!-- リセットCSS -->
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
-		<!-- aanimate -->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="css/contact.css" />
-		<link rel="stylesheet" href="css/loading.css" />
-	</head>
-	<body>
-		<!-- Loading -->
-		<div id="splash">
-			<div id="splash_logo">
-				<img src="image/しずおか食堂ロゴ完成版2.png" alt="" class="fadeUp" />
-			</div>
-		</div>
-		<!-- ヘッダー -->
-		<header>
-			<!-- ロゴ -->
-			<h1>
-				<a href="index.html"><img src="image/しずおか食堂ロゴ完成版2.png" /></a>
-			</h1>
-			<!-- ナビ -->
-			<nav>
-				<ul class="menu-text-container">
-					<li>
-						<div class="nav-text">
-							<a href="index.html">
-								<p class="nav-text-first">home</p>
-								<p class="nav-text-second">トップページ</p>
-							</a>
-						</div>
-					</li>
-					<li>
-						<a href="about.html">
-							<p class="nav-text-first">about</p>
-							<p class="nav-text-second">しずおか食堂<br />について</p>
-						</a>
-					</li>
-					<li>
-						<a href="menu.html">
-							<p class="nav-text-first">menu</p>
-							<p class="nav-text-second">お品書き</p>
-						</a>
-					</li>
-					<!-- newsに飛ぶ -->
-					<li>
-						<a href="index.html#news">
-							<p class="nav-text-first">news</p>
-							<p class="nav-text-second">お知らせ</p>
-						</a>
-					</li>
-					<li>
-						<a href="contact.html">
-							<p class="nav-text-first">contact</p>
-							<p class="nav-text-second">お問い合わせ</p>
-						</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		<!-- メイン画像 -->
-		<div class="index-top fadeIn">
-			<h1 class="sub_top archeText fadeInUp">お問い合わせ</h1>
-		</div>
-		<!-- メイン -->
-		<section class="main-contact">
-			<div class="contact-title">
-				<div class="main-contact-icon leaf fadeIn">
-					<h2>
-						お問い合わせ<br />
-						<div class="contact-sabu">contact</div>
-					</h2>
-				</div>
-			</div>
-			<div class="contact-mini">
-				<div class="main-menu-icon small-leaf fadeIn">
-					<h2>お問い合わせフォーム</h2>
-				</div>
-			</div>
-		</section>
-		<!-- お問い合わせフォーム -->
-		<div class="form fadeIn">
-			<div class="form-item">
-				<p class="form-item-label">お名前</p>
-				<input
-					type="text"
-					class="form-item-input"
-					placeholder="例）静岡お茶子" />
-			</div>
-			<div class="form-item">
-				<p class="form-item-label">フリガナ</p>
-				<input
-					type="text"
-					class="form-item-input"
-					placeholder="例）シズオカオチャコ" />
-			</div>
-			<div class="form-item">
-				<p class="form-item-label">電話番号</p>
-				<input
-					type="text"
-					class="form-item-input"
-					placeholder="例）000-0000-0000" />
-			</div>
-			<div class="form-item">
-				<p class="form-item-label">
-					<span class="form-item-label-required">メールアドレス</span>
-				</p>
-				<input
-					type="email"
-					class="form-item-input"
-					placeholder="例）shizuoka@gmail.com" />
-			</div>
-			<div class="form-item">
-				<p class="form-item-label">住所</p>
-				<input
-					type="text"
-					class="form-item-input"
-					placeholder="例）静岡県静岡市駿河区用宗7-20" />
-			</div>
-			<div class="form-item">
-				<p class="form-item-label issg">お問い合わせ内容</p>
-				<textarea class="form-item-textarea"></textarea>
-			</div>
-			<div class="form-btn-box">
-				<input type="submit" class="form-btn" value="送信する" />
-			</div>
-		</div>
-		<!-- フッター -->
-		<footer>
-			<p>shizuoka dining room</p>
-		</footer>
-		<script>
-			//logoの表示
-			$(window).on("load", function () {
-				$("#splash").delay(1500).fadeOut("slow"); //ローディング画面を1.5秒（1500ms）待機してからフェードアウト
-				$("#splash_logo").delay(1200).fadeOut("slow"); //ロゴを1.2秒（1200ms）待機してからフェードアウト
-			});
-		</script>
-		<script src="js/fadein.js"></script>
-	</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>しずおか食堂</title>
+        <!-- jQuery -->
+        <script
+            type="text/javascript"
+            src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+        ></script>
+        <!-- Google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600&family=Zen+Kurenaido&display=swap"
+            rel="stylesheet"
+        />
+        <!-- リセットCSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"
+        />
+        <!-- animate -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/contact.css" />
+        <link rel="stylesheet" href="css/loading.css" />
+    </head>
+    <body>
+        <!-- Loading -->
+        <div id="splash">
+            <div id="splash_logo">
+                <img
+                    src="image/shizuokasyokudo-logo.png"
+                    alt=""
+                    class="fadeUp"
+                />
+            </div>
+        </div>
+        <header>
+            <h1>
+                <a href="index.html"
+                    ><img src="image/shizuokasyokudo-logo.png"
+                /></a>
+            </h1>
+            <nav>
+                <ul class="menu-text-container">
+                    <li>
+                        <div class="nav-text">
+                            <a href="index.html">
+                                <p class="nav-text-first">home</p>
+                                <p class="nav-text-second">トップページ</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            <p class="nav-text-first">about</p>
+                            <p class="nav-text-second">
+                                しずおか食堂<br />について
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="menu.html">
+                            <p class="nav-text-first">menu</p>
+                            <p class="nav-text-second">お品書き</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#news">
+                            <p class="nav-text-first">news</p>
+                            <p class="nav-text-second">お知らせ</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <p class="nav-text-first">contact</p>
+                            <p class="nav-text-second">お問い合わせ</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="index-top fadeIn">
+            <h1 class="sub_top archeText fadeInUp">お問い合わせ</h1>
+        </div>
+        <section class="main-contact">
+            <div class="contact-title">
+                <div class="main-contact-icon leaf fadeIn">
+                    <h2>
+                        お問い合わせ<br />
+                        <div class="contact-sabu">contact</div>
+                    </h2>
+                </div>
+            </div>
+            <div class="contact-mini">
+                <div class="main-menu-icon small-leaf fadeIn">
+                    <h2>お問い合わせフォーム</h2>
+                </div>
+            </div>
+        </section>
+        <div class="form fadeIn">
+            <div class="form-item">
+                <p class="form-item-label">お名前</p>
+                <input
+                    type="text"
+                    class="form-item-input"
+                    placeholder="例）静岡お茶子"
+                />
+            </div>
+            <div class="form-item">
+                <p class="form-item-label">フリガナ</p>
+                <input
+                    type="text"
+                    class="form-item-input"
+                    placeholder="例）シズオカオチャコ"
+                />
+            </div>
+            <div class="form-item">
+                <p class="form-item-label">電話番号</p>
+                <input
+                    type="text"
+                    class="form-item-input"
+                    placeholder="例）000-0000-0000"
+                />
+            </div>
+            <div class="form-item">
+                <p class="form-item-label">
+                    <span class="form-item-label-required">メールアドレス</span>
+                </p>
+                <input
+                    type="email"
+                    class="form-item-input"
+                    placeholder="例）shizuoka@gmail.com"
+                />
+            </div>
+            <div class="form-item">
+                <p class="form-item-label">住所</p>
+                <input
+                    type="text"
+                    class="form-item-input"
+                    placeholder="例）静岡県静岡市駿河区用宗7-20"
+                />
+            </div>
+            <div class="form-item">
+                <p class="form-item-label issg">お問い合わせ内容</p>
+                <textarea class="form-item-textarea"></textarea>
+            </div>
+            <div class="form-btn-box">
+                <input type="submit" class="form-btn" value="送信する" />
+            </div>
+        </div>
+        <footer>
+            <p>©2023 shizuoka dining room. All Rights Reserved</p>
+        </footer>
+        <script>
+            //logoの表示
+            $(window).on("load", function () {
+                $("#splash").delay(1500).fadeOut("slow"); //ローディング画面を1.5秒（1500ms）待機してからフェードアウト
+                $("#splash_logo").delay(1200).fadeOut("slow"); //ロゴを1.2秒（1200ms）待機してからフェードアウト
+            });
+        </script>
+        <script src="js/fadein.js"></script>
+    </body>
 </html>
