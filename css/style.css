@@ -137,7 +137,6 @@ header nav ul {
 .main-concept p {
 	width: 90%;
 	max-width: 950px;
-	/* height: 190px; */
 	background-color: #f8f8f8;
 	border-radius: 30px;
 	text-align: left;
@@ -166,6 +165,15 @@ header nav ul {
 	color: #67d212;
 	background-color: #fff;
 	border: 3px solid #67d212;
+}
+
+@media screen and (max-width: 640px) {
+	.sub_top {
+		font-size: 34px;
+	}
+	.main-concept p {
+		font-size: 14px;
+	}
 }
 
 .main-menu {
@@ -221,8 +229,15 @@ header nav ul {
 	object-position: 70% 50%;
 }
 
+.main-menu-list {
+	display: flex;
+	justify-content: center;
+}
+
 .main-menu-list ul {
 	display: flex;
+	width: 100%;
+	max-width: 900px;
 	justify-content: center;
 	flex-wrap: wrap;
 }
@@ -230,20 +245,13 @@ header nav ul {
 .main-menu-list ul > li > img {
 	margin-bottom: 30px;
 	border-radius: 50%;
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	object-fit: cover;
 }
 
-@media screen and (max-width: 640px) {
-	.main-menu-list ul > li > img {
-		width: 100px;
-		height: 100px;
-	}
-}
-
 .main-menu-list ul > li {
-	margin: 0 70px;
+	margin: 0 40px;
 	padding: 50px 0;
 }
 
@@ -273,6 +281,33 @@ header nav ul {
 	color: #67d212;
 	background-color: #fff;
 	border: 3px solid #67d212;
+}
+
+@media screen and (max-width: 640px) {
+	.main-menu-list {
+		width: 100%;
+		padding: 10px;
+	}
+
+	.main-menu-list ul {
+		justify-content: start;
+	}
+
+	.main-menu-list ul > li {
+		display: flex;
+		margin: 0;
+		margin-top: 20px;
+		padding: 0;
+	}
+
+	.main-menu-list ul > li p {
+		margin-left: 10px;
+	}
+
+	.main-menu-list ul > li > img {
+		width: 80px;
+		height: 80px;
+	}
 }
 
 .main-news h2 {
@@ -528,5 +563,9 @@ footer {
 		background-image: url(../image/main-img.jpeg);
 		background-size: cover;
 		background-position: bottom center;
+	}
+
+	footer p {
+		font-size: 12px;
 	}
 }
