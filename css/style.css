@@ -558,6 +558,10 @@ footer {
 	align-items: center;
 }
 
+.g-nav-list {
+	display: none;
+}
+
 @media screen and (max-width: 640px) {
 	.index-top {
 		width: 100%;
@@ -569,5 +573,16 @@ footer {
 
 	footer p {
 		font-size: 12px;
+	}
+
+	.g-nav-list {
+		display: block;
+	}
+	.menu-text-container {
+		display: none;
+	}
+
+	#g-nav ul {
+		display: inline;
 	}
 }
