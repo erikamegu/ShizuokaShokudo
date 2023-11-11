@@ -1,178 +1,220 @@
 @charset "utf-8";
 
 .menu-top {
-	min-height: 100vh;
-	background-image: url(../image/shirasudon.jpeg);
-	background-size: cover;
-	background-position: center;
+    min-height: 100vh;
+    background-image: url(../image/shirasudon.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 
 .menu-sub {
-	padding-top: 40vh;
-	padding-left: 5vw;
-	text-align: center;
-	font-family: "Zen Kurenaido", sans-serif;
-	font-weight: bold;
-	color: #fff;
-	font-size: 50px;
-	letter-spacing: 0.5em;
-	-moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-	-webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-	-ms-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    padding-top: 40vh;
+    padding-left: 5vw;
+    text-align: center;
+    font-family: "Zen Kurenaido", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 0.5em;
+    -moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    -webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    -ms-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 .menu {
-	font-size: 24px;
-	font-family: "Zen Kurenaido", sans-serif;
-	text-align: center;
+    font-size: 24px;
+    font-family: "Zen Kurenaido", sans-serif;
+    text-align: center;
 }
 
 .menu-sabu {
-	font-size: 16px;
-	font-family: "Montserrat", sans-serif;
-	margin-top: 10px;
-	text-align: center;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+    text-align: center;
 }
 
 @media screen and (max-width: 640px) {
-	.menu-sub {
-		font-size: 34px;
-	}
+    .menu-top {
+        width: 100%;
+        min-height: 60vh;
+        background-position: top center;
+    }
+    .menu-sub {
+        font-size: 34px;
+        padding-top: 28vh;
+    }
 }
 
 .main-concept-icon {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 250px;
-	margin-top: 300px;
-	height: 200px;
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-top: 300px;
+    height: 200px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
 }
 
 .main-concept-icon h2 {
-	margin-top: 50px;
-}
-
-.leaf {
-	background-image: url(../image/leaf1.png);
-}
-
-.menu-mini {
-	font-size: 20px;
-	font-family: "Zen Kurenaido", sans-serif;
-	text-align: center;
-	margin-bottom: 50px;
-}
-
-.menu-concept-icon {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 200px;
-	margin-top: 150px;
-	height: 200px;
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	display: inline-block;
-}
-
-.menu-concept-icon h2 {
-	margin-top: 45px;
-}
-
-.small-leaf {
-	background-image: url(../image/leaf2.png);
-}
-
-.menu-list {
-	margin-bottom: 150px;
-}
-
-.menu-list ul {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
-.menu-list-large > div {
-	margin-left: 100px;
-}
-
-.menu-list-large img {
-	width: 90%;
-	height: 90%;
-	object-fit: contain;
-}
-
-.menu-list div > div {
-	text-align: left;
-	background-color: #f8f8f8;
-	padding: 10px;
-	display: inline-block;
-}
-
-.list-box {
-	margin-bottom: 200px;
-}
-
-.menu-list-small img {
-	width: 90%;
-	height: 90%;
-	object-fit: contain;
-	border-radius: 50px;
-}
-
-.menu-list-2nd ul {
-	display: flex;
-	justify-content: center;
-}
-
-.menu-list-2nd li {
-	width: 30%;
-}
-
-.menu-list-2nd div > div {
-	text-align: left;
-	background-color: #f8f8f8;
-	padding: 10px;
-	display: inline-block;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 640px) {
-	.menu-list-2nd ul {
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-	.menu-list-2nd li {
-		width: 80%;
-	}
+    .main-concept-icon {
+        margin-top: 150px;
+        margin-bottom: 0;
+    }
+}
+
+.leaf {
+    background-image: url(../image/leaf1.png);
+}
+
+.menu-mini {
+    font-size: 20px;
+    font-family: "Zen Kurenaido", sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.menu-concept-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin-top: 150px;
+    height: 200px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.menu-concept-icon h2 {
+    margin-top: 45px;
+}
+
+.small-leaf {
+    background-image: url(../image/leaf2.png);
+}
+
+.menu-list {
+    margin-bottom: 150px;
+}
+
+.menu-list ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-list-large > div {
+    margin-left: 100px;
+}
+
+.menu-list-large img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.menu-list div > div {
+    text-align: left;
+    background-color: #f8f8f8;
+    padding: 10px;
+    display: inline-block;
+}
+
+.list-box {
+    margin-bottom: 200px;
+}
+
+.menu-list-small img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    border-radius: 50px;
+}
+
+.menu-list-2nd ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list-2nd li {
+    width: 30%;
+}
+
+.menu-list-2nd div > div {
+    text-align: left;
+    background-color: #f8f8f8;
+    padding: 10px;
+    display: inline-block;
 }
 
 .menu-list-small-box {
-	text-align: center;
+    text-align: center;
 }
 
 .menu-list-small-box-text {
-	margin: 20px;
+    margin: 20px;
 }
 
 .menu-list-2nd-box ul {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .menu-list-2nd-box ul > li {
-	margin-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.menu-box-second {
+    padding-top: 45px;
 }
 
 footer {
-	height: 100px;
-	background-color: #67d212;
+    height: 100px;
+    background-color: #67d212;
+}
+
+@media screen and (max-width: 640px) {
+    .menu-list-2nd ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .menu-list-2nd li {
+        width: 80%;
+    }
+    .menu-concept-icon {
+        margin-top: 50px;
+    }
+
+    .menu-mini {
+        margin-bottom: 0;
+    }
+    .menu-box {
+        margin-bottom: 50px;
+    }
+    .menu-list {
+        margin-bottom: 70px;
+    }
+    .menu-list-2nd li {
+        margin-bottom: 50px;
+    }
+    .menu-list-2nd-box ul > li {
+        margin-bottom: 50px;
+    }
+    .list-box {
+        margin-bottom: 100px;
+    }
+    .menu-box-second {
+        padding-top: 0;
+    }
 }

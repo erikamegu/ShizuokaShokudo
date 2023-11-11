@@ -1,183 +1,229 @@
 <!DOCTYPE html>
 <html lang="ja">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>しずおか食堂</title>
-		<!-- jQuery -->
-		<script
-			type="text/javascript"
-			src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<!-- flickity -->
-		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-		<!-- google font -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600&family=Zen+Kurenaido&display=swap"
-			rel="stylesheet" />
-		<!-- リセットCSS -->
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
-		<!-- animate -->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-		<!-- flickity -->
-		<link
-			rel="stylesheet"
-			href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
-		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="css/about.css" />
-		<link rel="stylesheet" href="css/loading.css" />
-	</head>
-	<body>
-		<!-- Loading -->
-		<div id="splash">
-			<div id="splash_logo">
-				<img src="image/shizuokasyokudo-logo.png" alt="" class="fadeUp" />
-			</div>
-		</div>
-		<header>
-			<h1>
-				<a href="index.html"><img src="image/shizuokasyokudo-logo.png" /></a>
-			</h1>
-			<nav>
-				<ul class="menu-text-container">
-					<li>
-						<div class="nav-text">
-							<a href="index.html">
-								<p class="nav-text-first">home</p>
-								<p class="nav-text-second">トップページ</p>
-							</a>
-						</div>
-					</li>
-					<li>
-						<a href="about.html">
-							<p class="nav-text-first">about</p>
-							<p class="nav-text-second">しずおか食堂<br />について</p>
-						</a>
-					</li>
-					<li>
-						<a href="menu.html">
-							<p class="nav-text-first">menu</p>
-							<p class="nav-text-second">お品書き</p>
-						</a>
-					</li>
-					<li>
-						<a href="index.html#news">
-							<p class="nav-text-first">news</p>
-							<p class="nav-text-second">お知らせ</p>
-						</a>
-					</li>
-					<li>
-						<a href="contact.html">
-							<p class="nav-text-first">contact</p>
-							<p class="nav-text-second">お問い合わせ</p>
-						</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		<div class="about-top fadeIn">
-			<h1 class="about_top archeText fadeInUp">
-				しずおか食堂<br class="mobile-br" />について
-			</h1>
-		</div>
-		<div class="main-content">
-			<section class="about-concept">
-				<div>
-					<div class="about-concept-icon leaf fadeIn">
-						<h2>
-							しずおか食堂について
-							<div class="main-about-text">about</div>
-						</h2>
-					</div>
-				</div>
-				<img
-					src="image/abouto-img.jpg"
-					alt="#"
-					class="about-concept-img fadeIn" />
-				<p>
-					&nbsp;&nbsp;私、内藤静子(50)は静岡市で生まれ育ちました。子どもたちが巣立ち何か新しいことを始めたいと思った時に、夫に食堂を開くのはどうかとすすめられました。<br />
-					&nbsp;&nbsp;昔から料理が好きで、沢山の人に自分の料理を食べてもらいたい、静岡の味を伝えたいと思い<span>『しずおか食堂』</span>をオープンすることにしました。
-				</p>
-			</section>
-			<section class="about-concept-2">
-				<div>
-					<div class="about-concept-2-icon leaf fadeIn">
-						<h2>コンセプト</h2>
-					</div>
-				</div>
-				<div class="slider-wrapper fadeIn">
-					<div class="carousel" data-flickity='{ "wrapAround": true }'>
-						<div class="carousel-cell">
-							<img
-								src="image/shop-img.jpeg"
-								alt="#"
-								class="about-concept-2-img" />
-						</div>
-						<div class="carousel-cell">
-							<img
-								src="image/1924090_s.jpg"
-								alt="#"
-								class="about-concept-2-img" />
-						</div>
-						<div class="carousel-cell">
-							<img src="image/ocha.jpg" alt="#" class="about-concept-2-img" />
-						</div>
-					</div>
-				</div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>しずおか食堂</title>
+        <!-- jQuery -->
+        <script
+            type="text/javascript"
+            src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+        ></script>
+        <!-- flickity -->
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600&family=Zen+Kurenaido&display=swap"
+            rel="stylesheet"
+        />
+        <!-- リセットCSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"
+        />
+        <!-- animate -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <!-- flickity -->
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/about.css" />
+        <link rel="stylesheet" href="css/header-menu .css" />
+        <link rel="stylesheet" href="css/loading.css" />
+    </head>
+    <body>
+        <!-- Loading -->
+        <div id="splash">
+            <div id="splash_logo">
+                <img
+                    src="image/shizuokasyokudo-logo.png"
+                    alt=""
+                    class="fadeUp"
+                />
+            </div>
+        </div>
+        <header>
+            <h1>
+                <a href="index.html"
+                    ><img src="image/shizuokasyokudo-logo.png"
+                /></a>
+            </h1>
+            <nav>
+                <ul class="menu-text-container">
+                    <li>
+                        <div class="nav-text">
+                            <a href="index.html">
+                                <p class="nav-text-first">home</p>
+                                <p class="nav-text-second">トップページ</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            <p class="nav-text-first">about</p>
+                            <p class="nav-text-second">
+                                しずおか食堂<br />について
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="menu.html">
+                            <p class="nav-text-first">menu</p>
+                            <p class="nav-text-second">お品書き</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#news">
+                            <p class="nav-text-first">news</p>
+                            <p class="nav-text-second">お知らせ</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <p class="nav-text-first">contact</p>
+                            <p class="nav-text-second">お問い合わせ</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="openbtn"><span></span><span></span><span></span></div>
+            <div id="g-nav">
+                <div id="g-nav-list">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="menu.html">menu</a></li>
+                        <li><a href="index.html#news">news</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="circle-bg"></div>
+        </header>
+        <div class="about-top fadeIn">
+            <h1 class="about-sub archeText fadeInUp">
+                しずおか食堂<br class="mobile-br" />について
+            </h1>
+        </div>
+        <div class="main-content">
+            <section class="about-concept">
+                <div>
+                    <div class="about-concept-icon leaf fadeIn">
+                        <h2>
+                            しずおか食堂について
+                            <div class="main-about-text">about</div>
+                        </h2>
+                    </div>
+                </div>
+                <img
+                    src="image/abouto-img.jpg"
+                    alt="#"
+                    class="about-concept-img fadeIn"
+                />
+                <p>
+                    &nbsp;&nbsp;私、内藤静子(50)は静岡市で生まれ育ちました。子どもたちが巣立ち何か新しいことを始めたいと思った時に、夫に食堂を開くのはどうかとすすめられました。<br />
+                    &nbsp;&nbsp;昔から料理が好きで、沢山の人に自分の料理を食べてもらいたい、静岡の味を伝えたいと思い<span>『しずおか食堂』</span>をオープンすることにしました。
+                </p>
+            </section>
+            <section class="about-concept-2">
+                <div>
+                    <div class="about-concept-2-icon leaf fadeIn">
+                        <h2>コンセプト</h2>
+                    </div>
+                </div>
+                <div class="slider-wrapper fadeIn">
+                    <div
+                        class="carousel"
+                        data-flickity='{ "wrapAround": true }'
+                    >
+                        <div class="carousel-cell">
+                            <img
+                                src="image/shop-img.jpeg"
+                                alt="#"
+                                class="about-concept-2-img"
+                            />
+                        </div>
+                        <div class="carousel-cell">
+                            <img
+                                src="image/1924090_s.jpg"
+                                alt="#"
+                                class="about-concept-2-img"
+                            />
+                        </div>
+                        <div class="carousel-cell">
+                            <img
+                                src="image/ocha.jpg"
+                                alt="#"
+                                class="about-concept-2-img"
+                            />
+                        </div>
+                    </div>
+                </div>
 
-				<p>
-					&nbsp;&nbsp;しずおか食堂は<span>『静岡の味を多くの人へ届ける』</span>をコンセプトに、静岡県産の食材を使った馴染みのあるお
-					料理や、桜えびのかき揚げやしらす丼など静岡ならではのメニューを提供することで、地元の人はもちろん県外の方々にも静岡の味を届けたい、静岡の味を楽しんでもらいたいとの思いがあります。<br />
-					&nbsp;&nbsp;用宗にある知人の古民家を借りて2年前にオープンしました。静岡のあたたかさが伝わるような店内の雰囲気づくりをこころがけています。
-				</p>
-			</section>
-			<section class="about-concept-2">
-				<div>
-					<div class="about-concept-3-icon leaf fadeIn">
-						<h2>こだわり</h2>
-					</div>
-				</div>
-				<div class="slider-wrapper fadeIn">
-					<div class="carousel" data-flickity='{ "wrapAround": true }'>
-						<div class="carousel-cell">
-							<img src="image/wasabi.jpg" alt="#" class="about-concept-3-img" />
-						</div>
-						<div class="carousel-cell">
-							<img
-								src="image/sakuraebi-img.png"
-								alt="#"
-								class="about-concept-3-img" />
-						</div>
-						<div class="carousel-cell">
-							<img
-								src="image/vegetable.jpg"
-								alt="#"
-								class="about-concept-3-img" />
-						</div>
-					</div>
-				</div>
-
-				<p>
-					&nbsp;&nbsp;静岡県は温暖な気候と海や山に恵まれ、新鮮な海鮮や静岡茶、みかんなど静岡ならではの地場の食材が豊富に揃っています。<br />
-					&nbsp;&nbsp;このような静岡ならではの食材を使って、静岡の味の魅力を伝えられるように調理方法は工夫しています。また、食材は季節に合ったものや旬のもの、鮮度の高いものを選ぶようにしています。野菜はお店の敷地内の畑で一から丁寧に育てたものを使っています。
-				</p>
-			</section>
-		</div>
-		<footer>
-			<p>©2023 shizuoka dining room. All Rights Reserved</p>
-		</footer>
-		<script>
-			//logoの表示
-			$(window).on("load", function () {
-				$("#splash").delay(1500).fadeOut("slow"); //ローディング画面を1.5秒（1500ms）待機してからフェードアウト
-				$("#splash_logo").delay(1200).fadeOut("slow"); //ロゴを1.2秒（1200ms）待機してからフェードアウト
-			});
-		</script>
-		<script src="js/fadein.js"></script>
-	</body>
+                <p>
+                    &nbsp;&nbsp;しずおか食堂は<span>『静岡の味を多くの人へ届ける』</span>をコンセプトに、静岡県産の食材を使った馴染みのあるお
+                    料理や、桜えびのかき揚げやしらす丼など静岡ならではのメニューを提供することで、地元の人はもちろん県外の方々にも静岡の味を届けたい、静岡の味を楽しんでもらいたいとの思いがあります。<br />
+                    &nbsp;&nbsp;用宗にある知人の古民家を借りて2年前にオープンしました。静岡のあたたかさが伝わるような店内の雰囲気づくりをこころがけています。
+                </p>
+            </section>
+            <section class="about-concept-2 section-bottom">
+                <div>
+                    <div class="about-concept-3-icon leaf fadeIn">
+                        <h2>こだわり</h2>
+                    </div>
+                </div>
+                <div class="slider-wrapper fadeIn">
+                    <div
+                        class="carousel"
+                        data-flickity='{ "wrapAround": true }'
+                    >
+                        <div class="carousel-cell">
+                            <img
+                                src="image/wasabi.jpg"
+                                alt="#"
+                                class="about-concept-3-img"
+                            />
+                        </div>
+                        <div class="carousel-cell">
+                            <img
+                                src="image/sakuraebi-img.png"
+                                alt="#"
+                                class="about-concept-3-img"
+                            />
+                        </div>
+                        <div class="carousel-cell">
+                            <img
+                                src="image/vegetable.jpg"
+                                alt="#"
+                                class="about-concept-3-img"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    &nbsp;&nbsp;静岡県は温暖な気候と海や山に恵まれ、新鮮な海鮮や静岡茶、みかんなど静岡ならではの地場の食材が豊富に揃っています。<br />
+                    &nbsp;&nbsp;このような静岡ならではの食材を使って、静岡の味の魅力を伝えられるように調理方法は工夫しています。また、食材は季節に合ったものや旬のもの、鮮度の高いものを選ぶようにしています。野菜はお店の敷地内の畑で一から丁寧に育てたものを使っています。
+                </p>
+            </section>
+        </div>
+        <footer>
+            <p>©2023 shizuoka dining room. All Rights Reserved</p>
+        </footer>
+        <script>
+            //logoの表示
+            $(window).on("load", function () {
+                $("#splash").delay(1500).fadeOut("slow"); //ローディング画面を1.5秒（1500ms）待機してからフェードアウト
+                $("#splash_logo").delay(1200).fadeOut("slow"); //ロゴを1.2秒（1200ms）待機してからフェードアウト
+            });
+        </script>
+        <script src="js/fadein.js"></script>
+        <script src="js/menu.js"></script>
+    </body>
 </html>

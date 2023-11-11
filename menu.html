@@ -1,479 +1,558 @@
 <!DOCTYPE html>
 <html lang="ja">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>しずおか食堂</title>
-		<!-- jQuery -->
-		<script
-			type="text/javascript"
-			src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<!-- google font -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600&family=Zen+Kurenaido&display=swap"
-			rel="stylesheet" />
-		<!-- リセットCSS -->
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
-		<!-- animate -->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="css/menu.css" />
-		<link rel="stylesheet" href="css/loading.css" />
-	</head>
-	<body>
-		<!-- Loading -->
-		<div id="splash">
-			<div id="splash_logo">
-				<img src="image/shizuokasyokudo-logo.png" alt="" class="fadeUp" />
-			</div>
-		</div>
-		<header>
-			<h1>
-				<a href="index.html"><img src="image/shizuokasyokudo-logo.png" /></a>
-			</h1>
-			<nav>
-				<ul class="menu-text-container">
-					<li>
-						<div class="nav-text">
-							<a href="index.html">
-								<p class="nav-text-first">home</p>
-								<p class="nav-text-second">トップページ</p>
-							</a>
-						</div>
-					</li>
-					<li>
-						<a href="about.html">
-							<p class="nav-text-first">about</p>
-							<p class="nav-text-second">しずおか食堂<br />について</p>
-						</a>
-					</li>
-					<li>
-						<a href="menu.html">
-							<p class="nav-text-first">menu</p>
-							<p class="nav-text-second">お品書き</p>
-						</a>
-					</li>
-					<li>
-						<a href="index.html#news">
-							<p class="nav-text-first">news</p>
-							<p class="nav-text-second">お知らせ</p>
-						</a>
-					</li>
-					<li>
-						<a href="contact.html">
-							<p class="nav-text-first">contact</p>
-							<p class="nav-text-second">お問い合わせ</p>
-						</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		<div class="menu-top fadeIn">
-			<h1 class="menu-sub archeText fadeInUp">お品書き</h1>
-		</div>
-		<section class="main-content">
-			<div class="menu">
-				<div>
-					<div class="main-concept-icon leaf fadeIn">
-						<h2>
-							お品書き<br />
-							<div class="menu-sabu">menu</div>
-						</h2>
-					</div>
-				</div>
-			</div>
-			<div class="menu-mini">
-				<div class="menu-concept-icon small-leaf fadeIn">
-					<h2>海鮮丼</h2>
-				</div>
-			</div>
-			<div class="menu-list">
-				<ul>
-					<li class="menu-list-large fadeIn">
-						<img src="image/magurodon.png" alt="#" />
-						<div>
-							<div>
-								<p>贅沢まぐろ丼</p>
-								<p style="margin-top: 5px">1,680円(税込1,848円)</p>
-							</div>
-						</div>
-					</li>
-					<li class="menu-list-large fadeIn">
-						<img src="image/yokubaridon.png" alt="#" />
-						<div>
-							<div>
-								<p>いくらと蟹の欲ばり丼</p>
-								<p style="margin-top: 5px">1,580円(税込1,738円)</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="menu-list-2nd">
-				<ul>
-					<li class="menu-list-small fadeIn">
-						<div class="menu-list-small-box">
-							<img src="image/shirasudon.jpeg" alt="#" />
-						</div>
-						<div class="menu-list-small-box-text">
-							<div>
-								<p>２種のしらす丼</p>
-								<p style="margin-top: 5px">1,380円(税込1,518円)</p>
-							</div>
-						</div>
-					</li>
-					<li class="menu-list-small fadeIn">
-						<div class="menu-list-small-box">
-							<img src="image/kaisendon.jpeg" alt="#" />
-						</div>
-						<div class="menu-list-small-box-text">
-							<div>
-								<p>たっぷり海鮮丼</p>
-								<p style="margin-top: 5px">1,680円(税込1,848円)</p>
-							</div>
-						</div>
-					</li>
-					<li class="menu-list-small fadeIn">
-						<div class="menu-list-small-box">
-							<img src="image/azinootukuridon.jpg" alt="#" />
-						</div>
-						<div class="menu-list-small-box-text">
-							<div>
-								<p>あじの活き造り丼</p>
-								<p style="margin-top: 5px">1,580円(税込1,738円)</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="menu-mini">
-				<div class="menu-concept-icon small-leaf fadeIn">
-					<h2>おすすめメニュー</h2>
-				</div>
-			</div>
-			<div class="menu-list-2nd">
-				<ul>
-					<li class="menu-list-small fadeIn">
-						<div class="menu-list-small-box">
-							<img src="image/kinmedai.jpeg" alt="#" />
-						</div>
-						<div class="menu-list-small-box-text">
-							<div>
-								<p>金目鯛の煮付け</p>
-								<p style="margin-top: 5px">830円(税込913円)</p>
-							</div>
-						</div>
-					</li>
-					<li class="menu-list-small fadeIn">
-						<div class="menu-list-small-box">
-							<img src="image/sakuraebikakiage.jpeg" alt="#" />
-						</div>
-						<div class="menu-list-small-box-text">
-							<div>
-								<p>由比桜えびのかき揚げ</p>
-								<p style="margin-top: 5px">1,180円(税込1,298円)</p>
-							</div>
-						</div>
-					</li>
-					<li class="menu-list-small fadeIn">
-						<div class="menu-list-small-box">
-							<img src="image/kamamesi.jpg" alt="#" />
-						</div>
-						<div class="menu-list-small-box-text">
-							<div>
-								<p>桜えびの釜飯</p>
-								<p style="margin-top: 5px">1,380円(税込1,518円)</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="menu-mini">
-				<div class="menu-concept-icon small-leaf fadeIn">
-					<h2>麺類</h2>
-				</div>
-			</div>
-			<div class="menu-list-2nd">
-				<ul>
-					<li class="menu-list-small fadeIn">
-						<div class="menu-list-small-box">
-							<img src="image/nyumen.jpg" alt="#" />
-						</div>
-						<div class="menu-list-small-box-text">
-							<div>
-								<p>魚介の入った煮麺</p>
-								<p style="margin-top: 5px">910円(税込1,001円)</p>
-							</div>
-						</div>
-					</li>
-					<li class="menu-list-small fadeIn">
-						<div class="menu-list-small-box">
-							<img src="image/udon.jpg" alt="#" />
-						</div>
-						<div class="menu-list-small-box-text">
-							<div>
-								<p>野菜たっぷりうどん</p>
-								<p style="margin-top: 5px">910円(税込1,001円)</p>
-							</div>
-						</div>
-					</li>
-					<li class="menu-list-small fadeIn">
-						<div class="menu-list-small-box">
-							<img src="image/soba.jpg" alt="#" />
-						</div>
-						<div class="menu-list-small-box-text">
-							<div>
-								<p>鴨肉の旨味たっぷりそば</p>
-								<p style="margin-top: 5px">910円(税込1,001円)</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="menu-mini">
-				<div class="menu-concept-icon small-leaf fadeIn">
-					<h2>定食</h2>
-				</div>
-			</div>
-			<div class="menu-list-2nd">
-				<ul>
-					<li class="menu-list-small fadeIn">
-						<div class="menu-list-small-box">
-							<img src="image/azihurai.jpg" alt="#" />
-						</div>
-						<div class="menu-list-small-box-text">
-							<div>
-								<p>あじフライ定食</p>
-								<p style="margin-top: 5px">1,380円(税込1,518円)</p>
-							</div>
-						</div>
-					</li>
-					<li class="menu-list-small">
-						<div class="menu-list-small-box fadeIn">
-							<img src="image/iwasi.png" alt="#" />
-						</div>
-						<div class="menu-list-small-box-text">
-							<div>
-								<p>いわしの塩焼き定食</p>
-								<p style="margin-top: 5px">1,380円(税込1,518円)</p>
-							</div>
-						</div>
-					</li>
-					<li class="menu-list-small">
-						<div class="menu-list-small-box fadeIn">
-							<img src="image/chikinnanban.jpg" alt="#" />
-						</div>
-						<div class="menu-list-small-box-text">
-							<div>
-								<p>五穀米とチキン南蛮定食</p>
-								<p style="margin-top: 5px">1,280円(税込1,408円)</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="menu-mini">
-				<div class="menu-concept-icon small-leaf fadeIn">
-					<h2>一品料理</h2>
-				</div>
-			</div>
-			<div class="menu-list-2nd">
-				<ul>
-					<li class="menu-list-small">
-						<div class="menu-list-small-box fadeIn">
-							<img src="image/tofu.jpg" alt="#" />
-						</div>
-						<div class="menu-list-small-box-text">
-							<div>
-								<p>まるごと大豆の豆腐</p>
-								<p style="margin-top: 5px">380円(税込418円)</p>
-							</div>
-						</div>
-					</li>
-					<li class="menu-list-small">
-						<div class="menu-list-small-box fadeIn">
-							<img src="image/unagi.png" alt="#" />
-						</div>
-						<div class="menu-list-small-box-text">
-							<div>
-								<p>うなぎ入りふんわり卵焼き</p>
-								<p style="margin-top: 5px">420円(税込462円)</p>
-							</div>
-						</div>
-					</li>
-					<li class="menu-list-small">
-						<div class="menu-list-small-box fadeIn">
-							<img src="image/chikuzenni.jpg" alt="#" />
-						</div>
-						<div class="menu-list-small-box-text">
-							<div>
-								<p>具だくさん筑前煮</p>
-								<p style="margin-top: 5px">420円(税込462円)</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="menu-mini">
-				<div class="menu-concept-icon small-leaf fadeIn">
-					<h2>ごはん・みそ汁</h2>
-				</div>
-			</div>
-			<div class="menu-list-2nd">
-				<div class="menu-list-2nd-box">
-					<ul>
-						<li class="menu-list-small">
-							<div class="menu-list-small-box fadeIn">
-								<img src="image/kome.jpg" alt="#" />
-							</div>
-							<div class="menu-list-small-box-text">
-								<div>
-									<p>白米&nbsp;&nbsp;おかわり無料</p>
-									<p style="margin-top: 5px">136円(税込150円)</p>
-								</div>
-							</div>
-						</li>
-						<li class="menu-list-small">
-							<div class="menu-list-small-box fadeIn">
-								<img src="image/genmai.jpg" alt="#" />
-							</div>
-							<div class="menu-list-small-box-text">
-								<div>
-									<p>玄米</p>
-									<p style="margin-top: 5px">198円(税込218円)</p>
-								</div>
-							</div>
-						</li>
-						<li class="menu-list-small">
-							<div class="menu-list-small-box fadeIn">
-								<img src="image/gokokumai.jpg" alt="#" />
-							</div>
-							<div class="menu-list-small-box-text">
-								<div>
-									<p>五穀米</p>
-									<p style="margin-top: 5px">198円(税込218円)</p>
-								</div>
-							</div>
-						</li>
-						<li class="menu-list-small">
-							<div class="menu-list-small-box fadeIn">
-								<img src="image/misosiru.jpg" alt="#" />
-							</div>
-							<div class="menu-list-small-box-text">
-								<div>
-									<p>みそ汁&nbsp;&nbsp;おかわり無料</p>
-									<p style="margin-top: 5px">136円(税込150円)</p>
-								</div>
-							</div>
-						</li>
-						<li class="menu-list-small">
-							<div class="menu-list-small-box fadeIn">
-								<img src="image/natto.jpg" alt="#" />
-							</div>
-							<div class="menu-list-small-box-text">
-								<div>
-									<p>納豆</p>
-									<p style="margin-top: 5px">100円(税込110円)</p>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="menu-mini">
-				<div class="menu-concept-icon small-leaf fadeIn">
-					<h2>スイーツ</h2>
-				</div>
-			</div>
-			<div class="menu-list-2nd list-box">
-				<div class="menu-list-2nd-box">
-					<ul>
-						<li class="menu-list-small">
-							<div class="menu-list-small-box fadeIn">
-								<img src="image/mikantiramisu.jpg" alt="#" />
-							</div>
-							<div class="menu-list-small-box-text">
-								<div>
-									<p>静岡みかんティラミス</p>
-									<p style="margin-top: 5px">409円(税込450円)</p>
-								</div>
-							</div>
-						</li>
-						<li class="menu-list-small">
-							<div class="menu-list-small-box fadeIn">
-								<img src="image/shiratama.jpg" alt="#" />
-							</div>
-							<div class="menu-list-small-box-text">
-								<div>
-									<p>白玉と抹茶のアイス</p>
-									<p style="margin-top: 5px">380円(税込418円)</p>
-								</div>
-							</div>
-						</li>
-						<li class="menu-list-small">
-							<div class="menu-list-small-box fadeIn">
-								<img src="image/baniraice.jpg" alt="#" />
-							</div>
-							<div class="menu-list-small-box-text">
-								<div>
-									<p>抹茶ソースがけバニラアイス</p>
-									<p style="margin-top: 5px">480円(税込528円)</p>
-								</div>
-							</div>
-						</li>
-						<li class="menu-list-small">
-							<div class="menu-list-small-box fadeIn">
-								<img src="image/ichigodaifuku.jpg" alt="#" />
-							</div>
-							<div class="menu-list-small-box-text">
-								<div>
-									<p>紅ほっぺのいちご大福</p>
-									<p style="margin-top: 5px">230円(税込253円)</p>
-								</div>
-							</div>
-						</li>
-						<li class="menu-list-small">
-							<div class="menu-list-small-box fadeIn">
-								<img src="image/meronpafe.jpg" alt="#" />
-							</div>
-							<div class="menu-list-small-box-text">
-								<div>
-									<p>静岡産メロンの贅沢パフェ</p>
-									<p style="margin-top: 5px">680円(税込748円)</p>
-								</div>
-							</div>
-						</li>
-						<li class="menu-list-small">
-							<div class="menu-list-small-box fadeIn">
-								<img src="image/cake.jpg" alt="#" />
-							</div>
-							<div class="menu-list-small-box-text">
-								<div>
-									<p>あきひめのショートケーキ</p>
-									<p style="margin-top: 5px">409円(税込450円)</p>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-		<footer>
-			<p>©2023 shizuoka dining room. All Rights Reserved</p>
-		</footer>
-		<script>
-			//logoの表示
-			$(window).on("load", function () {
-				$("#splash").delay(1500).fadeOut("slow"); //ローディング画面を1.5秒（1500ms）待機してからフェードアウト
-				$("#splash_logo").delay(1200).fadeOut("slow"); //ロゴを1.2秒（1200ms）待機してからフェードアウト
-			});
-		</script>
-		<script src="js/fadein.js"></script>
-	</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>しずおか食堂</title>
+        <!-- jQuery -->
+        <script
+            type="text/javascript"
+            src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+        ></script>
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600&family=Zen+Kurenaido&display=swap"
+            rel="stylesheet"
+        />
+        <!-- リセットCSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"
+        />
+        <!-- animate -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/menu.css" />
+        <link rel="stylesheet" href="css/header-menu .css" />
+        <link rel="stylesheet" href="css/loading.css" />
+    </head>
+    <body>
+        <!-- Loading -->
+        <div id="splash">
+            <div id="splash_logo">
+                <img
+                    src="image/shizuokasyokudo-logo.png"
+                    alt=""
+                    class="fadeUp"
+                />
+            </div>
+        </div>
+        <header>
+            <h1>
+                <a href="index.html"
+                    ><img src="image/shizuokasyokudo-logo.png"
+                /></a>
+            </h1>
+            <nav>
+                <ul class="menu-text-container">
+                    <li>
+                        <div class="nav-text">
+                            <a href="index.html">
+                                <p class="nav-text-first">home</p>
+                                <p class="nav-text-second">トップページ</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            <p class="nav-text-first">about</p>
+                            <p class="nav-text-second">
+                                しずおか食堂<br />について
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="menu.html">
+                            <p class="nav-text-first">menu</p>
+                            <p class="nav-text-second">お品書き</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#news">
+                            <p class="nav-text-first">news</p>
+                            <p class="nav-text-second">お知らせ</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <p class="nav-text-first">contact</p>
+                            <p class="nav-text-second">お問い合わせ</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="openbtn"><span></span><span></span><span></span></div>
+            <div id="g-nav">
+                <div id="g-nav-list">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="menu.html">menu</a></li>
+                        <li><a href="index.html#news">news</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="circle-bg"></div>
+        </header>
+        <div class="menu-top fadeIn">
+            <h1 class="menu-sub archeText fadeInUp">お品書き</h1>
+        </div>
+        <section class="main-content">
+            <div class="menu">
+                <div>
+                    <div class="main-concept-icon leaf fadeIn">
+                        <h2>
+                            お品書き<br />
+                            <div class="menu-sabu">menu</div>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-mini">
+                <div class="menu-concept-icon small-leaf fadeIn">
+                    <h2>海鮮丼</h2>
+                </div>
+            </div>
+            <div class="menu-list">
+                <ul>
+                    <div class="menu-box">
+                        <li class="menu-list-large fadeIn">
+                            <img src="image/magurodon.png" alt="#" />
+                            <div>
+                                <div>
+                                    <p>贅沢まぐろ丼</p>
+                                    <p style="margin-top: 5px">
+                                        1,680円(税込1,848円)
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="menu-box-second">
+                        <li class="menu-list-large fadeIn">
+                            <img src="image/yokubaridon.png" alt="#" />
+                            <div>
+                                <div>
+                                    <p>いくらと蟹の欲ばり丼</p>
+                                    <p style="margin-top: 5px">
+                                        1,580円(税込1,738円)
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <div class="menu-list-2nd">
+                <ul>
+                    <li class="menu-list-small fadeIn">
+                        <div class="menu-list-small-box">
+                            <img src="image/shirasudon.jpeg" alt="#" />
+                        </div>
+                        <div class="menu-list-small-box-text">
+                            <div>
+                                <p>２種のしらす丼</p>
+                                <p style="margin-top: 5px">
+                                    1,380円(税込1,518円)
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-list-small fadeIn">
+                        <div class="menu-list-small-box">
+                            <img src="image/kaisendon.jpeg" alt="#" />
+                        </div>
+                        <div class="menu-list-small-box-text">
+                            <div>
+                                <p>たっぷり海鮮丼</p>
+                                <p style="margin-top: 5px">
+                                    1,680円(税込1,848円)
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-list-small fadeIn">
+                        <div class="menu-list-small-box">
+                            <img src="image/azinootukuridon.jpg" alt="#" />
+                        </div>
+                        <div class="menu-list-small-box-text">
+                            <div>
+                                <p>あじの活き造り丼</p>
+                                <p style="margin-top: 5px">
+                                    1,580円(税込1,738円)
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-mini">
+                <div class="menu-concept-icon small-leaf fadeIn">
+                    <h2>おすすめメニュー</h2>
+                </div>
+            </div>
+            <div class="menu-list-2nd">
+                <ul>
+                    <li class="menu-list-small fadeIn">
+                        <div class="menu-list-small-box">
+                            <img src="image/kinmedai.jpeg" alt="#" />
+                        </div>
+                        <div class="menu-list-small-box-text">
+                            <div>
+                                <p>金目鯛の煮付け</p>
+                                <p style="margin-top: 5px">830円(税込913円)</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-list-small fadeIn">
+                        <div class="menu-list-small-box">
+                            <img src="image/sakuraebikakiage.jpeg" alt="#" />
+                        </div>
+                        <div class="menu-list-small-box-text">
+                            <div>
+                                <p>由比桜えびのかき揚げ</p>
+                                <p style="margin-top: 5px">
+                                    1,180円(税込1,298円)
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-list-small fadeIn">
+                        <div class="menu-list-small-box">
+                            <img src="image/kamamesi.jpg" alt="#" />
+                        </div>
+                        <div class="menu-list-small-box-text">
+                            <div>
+                                <p>桜えびの釜飯</p>
+                                <p style="margin-top: 5px">
+                                    1,380円(税込1,518円)
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-mini">
+                <div class="menu-concept-icon small-leaf fadeIn">
+                    <h2>麺類</h2>
+                </div>
+            </div>
+            <div class="menu-list-2nd">
+                <ul>
+                    <li class="menu-list-small fadeIn">
+                        <div class="menu-list-small-box">
+                            <img src="image/nyumen.jpg" alt="#" />
+                        </div>
+                        <div class="menu-list-small-box-text">
+                            <div>
+                                <p>魚介の入った煮麺</p>
+                                <p style="margin-top: 5px">
+                                    910円(税込1,001円)
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-list-small fadeIn">
+                        <div class="menu-list-small-box">
+                            <img src="image/udon.jpg" alt="#" />
+                        </div>
+                        <div class="menu-list-small-box-text">
+                            <div>
+                                <p>野菜たっぷりうどん</p>
+                                <p style="margin-top: 5px">
+                                    910円(税込1,001円)
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-list-small fadeIn">
+                        <div class="menu-list-small-box">
+                            <img src="image/soba.jpg" alt="#" />
+                        </div>
+                        <div class="menu-list-small-box-text">
+                            <div>
+                                <p>鴨肉の旨味たっぷりそば</p>
+                                <p style="margin-top: 5px">
+                                    910円(税込1,001円)
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-mini">
+                <div class="menu-concept-icon small-leaf fadeIn">
+                    <h2>定食</h2>
+                </div>
+            </div>
+            <div class="menu-list-2nd">
+                <ul>
+                    <li class="menu-list-small fadeIn">
+                        <div class="menu-list-small-box">
+                            <img src="image/azihurai.jpg" alt="#" />
+                        </div>
+                        <div class="menu-list-small-box-text">
+                            <div>
+                                <p>あじフライ定食</p>
+                                <p style="margin-top: 5px">
+                                    1,380円(税込1,518円)
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-list-small">
+                        <div class="menu-list-small-box fadeIn">
+                            <img src="image/iwasi.png" alt="#" />
+                        </div>
+                        <div class="menu-list-small-box-text">
+                            <div>
+                                <p>いわしの塩焼き定食</p>
+                                <p style="margin-top: 5px">
+                                    1,380円(税込1,518円)
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-list-small">
+                        <div class="menu-list-small-box fadeIn">
+                            <img src="image/chikinnanban.jpg" alt="#" />
+                        </div>
+                        <div class="menu-list-small-box-text">
+                            <div>
+                                <p>五穀米とチキン南蛮定食</p>
+                                <p style="margin-top: 5px">
+                                    1,280円(税込1,408円)
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-mini">
+                <div class="menu-concept-icon small-leaf fadeIn">
+                    <h2>一品料理</h2>
+                </div>
+            </div>
+            <div class="menu-list-2nd">
+                <ul>
+                    <li class="menu-list-small">
+                        <div class="menu-list-small-box fadeIn">
+                            <img src="image/tofu.jpg" alt="#" />
+                        </div>
+                        <div class="menu-list-small-box-text">
+                            <div>
+                                <p>まるごと大豆の豆腐</p>
+                                <p style="margin-top: 5px">380円(税込418円)</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-list-small">
+                        <div class="menu-list-small-box fadeIn">
+                            <img src="image/unagi.png" alt="#" />
+                        </div>
+                        <div class="menu-list-small-box-text">
+                            <div>
+                                <p>うなぎ入りふんわり卵焼き</p>
+                                <p style="margin-top: 5px">420円(税込462円)</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-list-small">
+                        <div class="menu-list-small-box fadeIn">
+                            <img src="image/chikuzenni.jpg" alt="#" />
+                        </div>
+                        <div class="menu-list-small-box-text">
+                            <div>
+                                <p>具だくさん筑前煮</p>
+                                <p style="margin-top: 5px">420円(税込462円)</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-mini">
+                <div class="menu-concept-icon small-leaf fadeIn">
+                    <h2>ごはん・みそ汁</h2>
+                </div>
+            </div>
+            <div class="menu-list-2nd">
+                <div class="menu-list-2nd-box">
+                    <ul>
+                        <li class="menu-list-small">
+                            <div class="menu-list-small-box fadeIn">
+                                <img src="image/kome.jpg" alt="#" />
+                            </div>
+                            <div class="menu-list-small-box-text">
+                                <div>
+                                    <p>白米&nbsp;&nbsp;おかわり無料</p>
+                                    <p style="margin-top: 5px">
+                                        136円(税込150円)
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list-small">
+                            <div class="menu-list-small-box fadeIn">
+                                <img src="image/genmai.jpg" alt="#" />
+                            </div>
+                            <div class="menu-list-small-box-text">
+                                <div>
+                                    <p>玄米</p>
+                                    <p style="margin-top: 5px">
+                                        198円(税込218円)
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list-small">
+                            <div class="menu-list-small-box fadeIn">
+                                <img src="image/gokokumai.jpg" alt="#" />
+                            </div>
+                            <div class="menu-list-small-box-text">
+                                <div>
+                                    <p>五穀米</p>
+                                    <p style="margin-top: 5px">
+                                        198円(税込218円)
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list-small">
+                            <div class="menu-list-small-box fadeIn">
+                                <img src="image/misosiru.jpg" alt="#" />
+                            </div>
+                            <div class="menu-list-small-box-text">
+                                <div>
+                                    <p>みそ汁&nbsp;&nbsp;おかわり無料</p>
+                                    <p style="margin-top: 5px">
+                                        136円(税込150円)
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list-small">
+                            <div class="menu-list-small-box fadeIn">
+                                <img src="image/natto.jpg" alt="#" />
+                            </div>
+                            <div class="menu-list-small-box-text">
+                                <div>
+                                    <p>納豆</p>
+                                    <p style="margin-top: 5px">
+                                        100円(税込110円)
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-mini">
+                <div class="menu-concept-icon small-leaf fadeIn">
+                    <h2>スイーツ</h2>
+                </div>
+            </div>
+            <div class="menu-list-2nd list-box">
+                <div class="menu-list-2nd-box">
+                    <ul>
+                        <li class="menu-list-small">
+                            <div class="menu-list-small-box fadeIn">
+                                <img src="image/mikantiramisu.jpg" alt="#" />
+                            </div>
+                            <div class="menu-list-small-box-text">
+                                <div>
+                                    <p>静岡みかんティラミス</p>
+                                    <p style="margin-top: 5px">
+                                        409円(税込450円)
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list-small">
+                            <div class="menu-list-small-box fadeIn">
+                                <img src="image/shiratama.jpg" alt="#" />
+                            </div>
+                            <div class="menu-list-small-box-text">
+                                <div>
+                                    <p>白玉と抹茶のアイス</p>
+                                    <p style="margin-top: 5px">
+                                        380円(税込418円)
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list-small">
+                            <div class="menu-list-small-box fadeIn">
+                                <img src="image/baniraice.jpg" alt="#" />
+                            </div>
+                            <div class="menu-list-small-box-text">
+                                <div>
+                                    <p>抹茶ソースがけバニラアイス</p>
+                                    <p style="margin-top: 5px">
+                                        480円(税込528円)
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list-small">
+                            <div class="menu-list-small-box fadeIn">
+                                <img src="image/ichigodaifuku.jpg" alt="#" />
+                            </div>
+                            <div class="menu-list-small-box-text">
+                                <div>
+                                    <p>紅ほっぺのいちご大福</p>
+                                    <p style="margin-top: 5px">
+                                        230円(税込253円)
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list-small">
+                            <div class="menu-list-small-box fadeIn">
+                                <img src="image/meronpafe.jpg" alt="#" />
+                            </div>
+                            <div class="menu-list-small-box-text">
+                                <div>
+                                    <p>静岡産メロンの贅沢パフェ</p>
+                                    <p style="margin-top: 5px">
+                                        680円(税込748円)
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list-small">
+                            <div class="menu-list-small-box fadeIn">
+                                <img src="image/cake.jpg" alt="#" />
+                            </div>
+                            <div class="menu-list-small-box-text">
+                                <div>
+                                    <p>あきひめのショートケーキ</p>
+                                    <p style="margin-top: 5px">
+                                        409円(税込450円)
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>©2023 shizuoka dining room. All Rights Reserved</p>
+        </footer>
+        <script>
+            //logoの表示
+            $(window).on("load", function () {
+                $("#splash").delay(1500).fadeOut("slow"); //ローディング画面を1.5秒（1500ms）待機してからフェードアウト
+                $("#splash_logo").delay(1200).fadeOut("slow"); //ロゴを1.2秒（1200ms）待機してからフェードアウト
+            });
+        </script>
+        <script src="js/fadein.js"></script>
+        <script src="js/menu.js"></script>
+    </body>
 </html>
