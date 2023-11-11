@@ -558,7 +558,7 @@ footer {
 	align-items: center;
 }
 
-.g-nav-list {
+.openbtn {
 	display: none;
 }
 
@@ -575,7 +575,7 @@ footer {
 		font-size: 12px;
 	}
 
-	.g-nav-list {
+	.openbtn {
 		display: block;
 	}
 	.menu-text-container {
