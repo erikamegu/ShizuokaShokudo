@@ -48,7 +48,7 @@ header nav {
 header nav ul {
 	display: flex;
 }
-
+/* ★共通★ */
 .nav-text-first {
 	margin: 0 0 0 50px;
 	font-size: 20px;
@@ -57,7 +57,7 @@ header nav ul {
 	font-family: "Montserrat", sans-serif;
 	padding-bottom: 10px;
 }
-
+/* ★共通★ */
 .nav-text-second {
 	font-family: "Zen Kurenaido", sans-serif;
 	font-size: 13px;
@@ -258,7 +258,7 @@ header nav ul {
 .main-menu-list p {
 	text-align: left;
 	line-height: 30px;
-	margin-left: 50px;
+	margin-left: 40px;
 }
 
 .main-menu-list {
@@ -289,11 +289,8 @@ header nav ul {
 		padding: 10px;
 	}
 
-	.main-menu-list ul {
-		justify-content: start;
-	}
-
 	.main-menu-list ul > li {
+		width: 95%;
 		display: flex;
 		margin: 0;
 		margin-top: 20px;
@@ -302,6 +299,11 @@ header nav ul {
 
 	.main-menu-list ul > li p {
 		margin-left: 10px;
+		margin-bottom: 0px;
+	}
+
+	.menu-price {
+		font-size: 12px;
 	}
 
 	.main-menu-list ul > li > img {
