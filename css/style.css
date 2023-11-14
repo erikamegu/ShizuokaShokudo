@@ -141,9 +141,8 @@ header nav ul {
 }
 
 .main-concept-img {
-    width: 80%;
-    max-width: 500px;
-    max-height: 350px;
+    width: 40%;
+    /* max-width: 550px; */
     border-radius: 20px;
     margin-bottom: 50px;
 }
