@@ -1,21 +1,21 @@
 @charset "utf-8";
 
 .menu-top {
-    min-height: 100vh;
+    min-height: 50vh;
     background-image: url(../image/shirasudon.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .menu-sub {
-    padding-top: 40vh;
-    padding-left: 5vw;
+    padding-top: 20vh;
+    /* padding-left: 5vw; */
     text-align: center;
-    font-family: "Zen Kurenaido", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: bold;
     color: #fff;
     font-size: 50px;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.2em;
     -moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     -webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     -ms-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
@@ -38,12 +38,12 @@
 @media screen and (max-width: 640px) {
     .menu-top {
         width: 100%;
-        min-height: 50vh;
+        min-height: 30vh;
         background-position: top center;
     }
     .menu-sub {
-        font-size: 34px;
-        padding-top: 22vh;
+        font-size: 35px;
+        padding-top: 13vh;
     }
 }
 
@@ -61,12 +61,12 @@
 }
 
 .main-concept-icon h2 {
-    margin-top: 50px;
+    margin-top: 55px;
 }
 
 @media screen and (max-width: 640px) {
     .main-concept-icon {
-        margin-top: 150px;
+        margin-top: 50px;
         margin-bottom: 0;
     }
 }
@@ -197,28 +197,38 @@ footer {
         width: 80%;
     }
     .menu-concept-icon {
-        margin-top: 20px;
+        margin-top: 50px;
+    }
+    .icon-space {
+        margin-top: -20px;
     }
 
     .menu-mini {
         margin-bottom: 0;
     }
     .menu-box {
-        margin-bottom: 50px;
+        margin-top: -30px;
+        margin-bottom: 10px;
     }
     .menu-list {
-        margin-bottom: 70px;
+        margin-bottom: 30px;
     }
     .menu-list-2nd li {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
     .menu-list-2nd-box ul > li {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
     .list-box {
         margin-bottom: 100px;
     }
     .menu-box-second {
         padding-top: 0;
+    }
+    .menu-list-2nd {
+        margin-top: -50px;
+    }
+    .menu-list-2nd-next {
+        margin-top: 0;
     }
 }

@@ -69,25 +69,41 @@ header nav ul {
 }
 
 .index-top {
+    width: 100%;
     min-height: 100vh;
-    background-image: url(../image/main-img.jpeg);
+    background-image: url(../image/shizuokasyokudo.jpg);
     background-size: cover;
-    background-position: bottom center;
+    background-position: 50% 80%;
+    text-align: center;
+    justify-content: center;
 }
 
 .sub_top {
     padding-top: 25vh;
-    padding-left: 12vw;
     text-align: center;
     font-family: "Zen Kurenaido", sans-serif;
     font-weight: bold;
     color: #fff;
-    font-size: 50px;
+    font-size: 60px;
     letter-spacing: 0.5em;
     -moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     -webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     -ms-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.sub-top-next {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Zen Kurenaido", sans-serif;
+    color: #67d212;
+    background-color: #f7fff0;
+    display: inline-block;
+    position: relative;
+    padding: 15px;
+    margin-top: 150px;
+    border-radius: 20px;
+    opacity: 0.8;
 }
 
 .main-concept {
@@ -168,17 +184,24 @@ header nav ul {
 @media screen and (max-width: 640px) {
     .sub_top {
         font-size: 34px;
-        padding-top: 20vh;
+        padding-top: 15vh;
     }
     .main-concept p {
         font-size: 14px;
     }
     .main-concept-icon {
-        margin-top: 150px;
+        margin-top: 50px;
+        margin-bottom: 0;
     }
     header img {
         width: 80px;
         height: 80px;
+    }
+    .main-concept-img {
+        margin-bottom: 30px;
+    }
+    .main-concept p {
+        margin-bottom: 30px;
     }
 }
 
@@ -293,6 +316,7 @@ header nav ul {
     .main-menu-list {
         width: 100%;
         padding: 10px;
+        margin-bottom: 30px;
     }
 
     .main-menu-list ul > li {
@@ -318,7 +342,11 @@ header nav ul {
     }
 
     .main-menu-icon {
-        margin-top: 150px;
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    .main-menu-text-second {
+        margin-bottom: 30px;
     }
 }
 
@@ -464,7 +492,8 @@ header nav ul {
         margin: 10px;
     }
     .main-news-icon {
-        margin-top: 150px;
+        margin-top: 50px;
+        margin-bottom: 0;
     }
 }
 
@@ -562,10 +591,14 @@ iframe {
         display: block;
     }
     .main-access-icon {
-        margin-top: 150px;
+        margin-top: 50px;
+        margin-bottom: 0;
     }
     .main-access {
-        margin-bottom: 200px;
+        margin-bottom: 100px;
+    }
+    iframe {
+        margin-bottom: 30px;
     }
 }
 
@@ -585,9 +618,15 @@ footer {
     .index-top {
         width: 100%;
         min-height: 50vh;
-        background-image: url(../image/main-img.jpeg);
+        background-image: url(../image/shizuokasyokudo.jpg);
         background-size: cover;
-        background-position: bottom center;
+        background-position: 70% 50%;
+    }
+
+    .sub-top-next {
+        font-size: 18px;
+        margin-top: 50px;
+        padding: 10px;
     }
 
     footer p {

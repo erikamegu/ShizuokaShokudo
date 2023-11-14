@@ -1,21 +1,21 @@
 @charset "utf-8";
 
 .about-top {
-    min-height: 100vh;
-    background-image: url(../image/shizuokasyokudo-img.jpeg);
+    min-height: 50vh;
+    background-image: url(../image/about-main-img.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 50% 100%;
 }
 
 .about-sub {
-    padding-top: 25vh;
-    padding-left: 8vw;
+    padding-top: 20vh;
+    /* padding-left: 8vw; */
     text-align: center;
-    font-family: "Zen Kurenaido", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: bold;
     color: #fff;
     font-size: 50px;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.2em;
     -moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     -webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     -ms-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
@@ -27,7 +27,7 @@
 }
 
 .about-concept h2 {
-    margin-top: 70px;
+    margin-top: 80px;
     font-size: 24px;
     font-family: "Zen Kurenaido", sans-serif;
 }
@@ -48,18 +48,19 @@
 @media screen and (max-width: 640px) {
     .about-top {
         width: 100%;
-        min-height: 50vh;
-        background-position: top center;
+        min-height: 30vh;
+        background-position: 50% 50%;
     }
     .about-sub {
-        font-size: 30px;
-        padding-top: 15vh;
+        font-size: 35px;
+        padding-top: 13vh;
     }
     .about-concept p {
         padding: 20px;
     }
     .about-concept-icon {
-        margin-top: 150px;
+        margin-top: 50px;
+        margin-bottom: 0;
     }
 }
 
@@ -177,7 +178,8 @@
     }
 
     .about-concept-2-icon {
-        margin-top: 100px;
+        margin-top: 20px;
+        margin-bottom: 0;
     }
 }
 
@@ -235,11 +237,15 @@
 }
 @media screen and (max-width: 640px) {
     .about-concept-3-icon {
-        margin-top: 150px;
+        margin-top: 50px;
+        margin-bottom: 0;
     }
-}
+    .section-bottom {
+        margin-bottom: 100px;
+    }
 
-footer {
-    height: 100px;
-    background-color: #67d212;
+    footer {
+        height: 100px;
+        background-color: #67d212;
+    }
 }
