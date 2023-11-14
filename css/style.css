@@ -584,7 +584,7 @@ footer {
 @media screen and (max-width: 640px) {
     .index-top {
         width: 100%;
-        min-height: 60vh;
+        min-height: 50vh;
         background-image: url(../image/main-img.jpeg);
         background-size: cover;
         background-position: bottom center;

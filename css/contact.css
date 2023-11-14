@@ -31,12 +31,12 @@
 @media screen and (max-width: 640px) {
     .contact-top {
         width: 100%;
-        min-height: 60vh;
+        min-height: 50vh;
         background-position: bottom center;
     }
     .contact-sub {
         font-size: 34px;
-        padding-top: 28vh;
+        padding-top: 22vh;
     }
 }
 

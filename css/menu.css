@@ -38,12 +38,12 @@
 @media screen and (max-width: 640px) {
     .menu-top {
         width: 100%;
-        min-height: 60vh;
+        min-height: 50vh;
         background-position: top center;
     }
     .menu-sub {
         font-size: 34px;
-        padding-top: 28vh;
+        padding-top: 22vh;
     }
 }
 
@@ -52,7 +52,7 @@
     justify-content: center;
     align-items: center;
     width: 250px;
-    margin-top: 300px;
+    margin-top: 200px;
     height: 200px;
     background-position: top center;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@
     font-size: 20px;
     font-family: "Zen Kurenaido", sans-serif;
     text-align: center;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .menu-concept-icon {
@@ -87,7 +87,7 @@
     justify-content: center;
     align-items: center;
     width: 200px;
-    margin-top: 150px;
+    margin-top: 100px;
     height: 200px;
     background-position: top center;
     background-repeat: no-repeat;
@@ -179,6 +179,10 @@
     padding-top: 45px;
 }
 
+.menu-space {
+    margin-top: 0;
+}
+
 footer {
     height: 100px;
     background-color: #67d212;
@@ -193,7 +197,7 @@ footer {
         width: 80%;
     }
     .menu-concept-icon {
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
     .menu-mini {
